@@ -1,0 +1,401 @@
+route_id,stop_name,lat,lon,order
+130,Uva Tesoro Carrera 30 1B Sur,6.2089,-75.5647,1
+130,Corporación Casa María y El Niño Carrera 29C 3B Sur,6.2096,-75.5653,2
+130,Supermercado La Vaquita Diagonal 29D 9 Sur,6.2102,-75.566,3
+130,Los Balsos Av El Poblado,6.2115,-75.5675,4
+130,CC Santa Fe Av El Poblado,6.2128,-75.5683,5
+130,CC Río Sur Av El Poblado 6 Sur,6.214,-75.5692,6
+130,Mall Milla de Oro Av El Poblado 1A Sur,6.2152,-75.57,7
+130,CC La Estrada Av El Poblado 1 Sur,6.216,-75.5708,8
+130,San Fernando Plaza Av El Poblado 18,6.2172,-75.5715,9
+130,Clínica Medellín Av El Poblado 72,6.2185,-75.5722,10
+130,Castropol Av El Poblado,6.22,-75.5735,11
+130,Centro Empresarial Block Cr 43A 17,6.221,-75.5745,12
+130,CC Automotriz Cr 43A 19,6.222,-75.5752,13
+130,Dislicores Cr 43A 25A,6.2235,-75.5765,14
+130,Cl 29 Cr 43A,6.2245,-75.5775,15
+130,Hospital General Av Palacé 32,6.242,-75.5845,16
+130,Palacé con Av 33,6.2405,-75.584,17
+130,Cr 50 Cl 45 (Guayaquil),6.244,-75.59,18
+130,Cr 50 Cl 50,6.2475,-75.5915,19
+130,Cr 50 Cl 51,6.2485,-75.592,20
+130,Cr 50 Cl 53,6.25,-75.593,21
+130,Av Oriental Cl 49,6.246,-75.588,22
+130,Parque San Antonio,6.244,-75.594,23
+130,Estación Esso Cr 43A 41,6.232,-75.5785,24
+130,Cr 46 Cl 38,6.235,-75.58,25
+130,CC Almacentro Av El Poblado,6.228,-75.576,26
+130,Av El Poblado Cl 30,6.2265,-75.575,27
+130,Castropol Colinas del Poblado,6.2205,-75.5738,29
+130,Parque El Poblado Cl 10,6.2085,-75.568,30
+130,Parque Lleras Cl 10 Cr 38,6.2098,-75.5672,31
+130,Zona Rosa Cl 10 Cr 35,6.2108,-75.5665,32
+130,CC Vizcaya Cl 10 Cr 32B,6.212,-75.5658,33
+130,CC Pinar del Río Cl 10 Cr 30A,6.2135,-75.565,34
+130,Hotel Best Western Trv Inferior Cl 10,6.2145,-75.566,35
+130,Trv Inferior Cl 7B,6.2155,-75.5668,36
+130,Trv Inferior Cl 5F,6.2165,-75.5675,37
+130,Transversal Inferior 2-70,6.2175,-75.5682,38
+130,Mall Plaza Cr 31,6.2185,-75.569,39
+132,Exito El Poblado,6.2086,-75.5673,1
+132,Calle 10 43c23,6.2098,-75.567,2
+132,Parque El Poblado,6.2083,-75.5676,3
+132,Av El Poblado 7d,6.2065,-75.5668,4
+132,Clinica Medellin Poblado,6.2047,-75.567,5
+132,Gimnasio Santillana,6.2039,-75.5665,6
+132,Mall Milla de Oro,6.2009,-75.5674,7
+132,Loma Los Gonzalez,6.1985,-75.5649,8
+132,Casa Maria y El Niño,6.1972,-75.5635,9
+132,UVA El Tesoro,6.1963,-75.5627,10
+132,Visitacion,6.1978,-75.5642,11
+132,Bosques de la Cascada,6.1989,-75.5651,12
+132,Los Balsos Av Poblado,6.1942,-75.5655,13
+132,Carulla Oviedo,6.1921,-75.5683,14
+132,INEM Las Vegas,6.191,-75.569,15
+132,Politecnico JIC,6.1905,-75.5695,16
+132,Las Vegas Calle 10,6.209,-75.5685,17
+132,DIAN Calle 14,6.2118,-75.569,18
+132,Telemedellin,6.214,-75.5695,19
+132,Barrio Colombia,6.2281,-75.5689,20
+132,Premium Plaza,6.2325,-75.5704,21
+132,Instituto Mariano Moreno,6.234,-75.571,22
+132,Hospital General,6.2363,-75.5721,23
+132,Exposiciones,6.2395,-75.5732,24
+132,Palace Av 33,6.2408,-75.574,25
+132,Autoamerica Toyota,6.242,-75.5745,26
+132,Carrera 50 41-40,6.2435,-75.575,27
+132,Parque San Antonio,6.2476,-75.5691,28
+132,Av Oriental,6.2485,-75.568,29
+132,San Diego,6.2309,-75.5665,30
+132,Almacentro,6.226,-75.5685,31
+132,Perpetuo Socorro,6.2245,-75.5695,32
+132,Ciudad del Rio,6.223,-75.5702,33
+132,Homecenter Industriales,6.2295,-75.5735,34
+132,Monterrey,6.23,-75.574,35
+133,Parque San Antonio,6.244,-75.594,1
+133,Estación Esso Cr 43A 41-16,6.232,-75.5785,2
+133,Carrera 46 40-23,6.2365,-75.5805,3
+133,CC Almacentro Av El Poblado,6.228,-75.576,4
+133,Av El Poblado Cl 30,6.2265,-75.575,5
+133,Centro Automotriz Cr 43A 25A-34,6.2235,-75.5765,6
+133,Telemedellín Cr 43F 17,6.2215,-75.5748,7
+133,Barrio Manila Cr 43F 12,6.22,-75.5738,8
+133,Éxito Poblado / Monterrey,6.2095,-75.5685,9
+133,Parque El Poblado Cl 10,6.2085,-75.568,10
+133,Parque Lleras Cl 10 Cr 38,6.2098,-75.5672,11
+133,Zona Rosa Cl 10 Cr 35,6.2108,-75.5665,12
+133,CC Vizcaya Cl 10 Cr 32B,6.212,-75.5658,13
+133,Ed. Bosques de La Concha Cl 10,6.213,-75.565,14
+133,CC Pinar del Río Cl 10 Cr 30A,6.2135,-75.565,15
+133,Hotel Best Western Trv Inferior Cl 10,6.2145,-75.566,16
+133,Trv Inferior Cl 7B,6.2155,-75.5668,17
+133,Trv Inferior Cl 5F,6.2165,-75.5675,18
+133,Transversal Inferior 2-70,6.2175,-75.5682,19
+133,Mall Plaza Cr 31,6.2185,-75.569,20
+133,Mall La Visitación,6.2195,-75.5705,21
+133,Urbanización Surabaya,6.2205,-75.5715,22
+133,Campestre Drive In,6.2215,-75.5725,23
+133,San Lucas Trv Inferior,6.2025,-75.5605,24
+133,Loma San Lucas,6.2015,-75.5595,25
+133,Iglesia San Lucas,6.2005,-75.5585,26
+133,Seniors Club San Lucas Cr 25B,6.1995,-75.5575,27
+133,Mall Complex Tv Superior,6.2055,-75.5555,28
+133,Edificio Cibeles Tv Superior Cl 7 Sur,6.207,-75.5565,29
+133,El Tesoro,6.209,-75.5575,30
+133,Mall del Este,6.2105,-75.5585,31
+133,Edificio Montecatini Cr 29,6.212,-75.5595,32
+133,Edificio El Vergel,6.2135,-75.5605,33
+133,CC Vizcaya Cl 10A Cr 32B,6.2125,-75.5655,34
+133,Hotel 10 Cl 10A,6.2115,-75.5662,35
+133,Ciudad del Río Cr 48 Cl 17,6.225,-75.5835,37
+133,Mercados del Río Cr 48 Cl 24,6.2275,-75.585,38
+133,Pier 30 Outlet,6.229,-75.5865,39
+133,Bancolombia Punto Clave,6.231,-75.588,40
+133,Hospital General Av Palacé 32,6.242,-75.5845,41
+133,Palacé con Av 33,6.2405,-75.584,42
+133,Cr 50 41-40,6.243,-75.589,43
+133,Paradero Solobus San Antonio Cl 47 Cr 46,6.2445,-75.5935,44
+135,Iglesia San Lucas,6.1895,-75.5576,1
+135,Sytecsa Calle 18 Sur,6.1908,-75.5582,2
+135,Calle 16a Sur 303,6.192,-75.559,3
+135,Mall Campestre Drive In,6.1935,-75.5602,4
+135,Calle 16a Sur 352,6.1943,-75.561,5
+135,Club Campestre Medellin,6.1955,-75.5622,6
+135,Club Campestre,6.1962,-75.5628,7
+135,Inexmoda,6.1988,-75.565,8
+135,Santa Fe Av Poblado,6.1999,-75.566,9
+135,Rio Sur,6.2005,-75.5668,10
+135,Mall Milla de Oro,6.2009,-75.5674,11
+135,CC La Estrada,6.2025,-75.5678,12
+135,San Fernando Plaza,6.204,-75.5676,13
+135,Clinica Medellin Poblado,6.2047,-75.567,14
+135,Av El Poblado 102,6.207,-75.5672,15
+135,HVM,6.2085,-75.5675,16
+135,Castropol,6.21,-75.568,17
+135,Centro Empresarial Block,6.2115,-75.5685,18
+135,Telemedellin,6.214,-75.5695,19
+135,Barrio Colombia,6.2281,-75.5689,20
+135,Premium Plaza,6.2325,-75.5704,21
+135,Hospital General,6.2363,-75.5721,22
+135,Exposiciones,6.2395,-75.5732,23
+135,Palace Av 33,6.2408,-75.574,24
+135,Av Oriental Centro,6.2485,-75.568,25
+135,Parque San Antonio,6.2476,-75.5691,26
+135,San Diego,6.2309,-75.5665,27
+135,Almacentro,6.226,-75.5685,28
+135,Perpetuo Socorro,6.2245,-75.5695,29
+135,Ciudad del Rio,6.223,-75.5702,30
+135,Industriales,6.2295,-75.5735,31
+135,Monterrey,6.23,-75.574,32
+190,Cl 35C Cr 87 (La Almería),6.2465,-75.6065,1
+190,La Almería Cl 35,6.246,-75.6055,2
+190,Cl 35 85D,6.2455,-75.6045,3
+190,Cl 34 85B,6.2445,-75.604,4
+190,Centro Médico Adventista,6.2435,-75.6035,5
+190,Universidad Adventista,6.2425,-75.603,6
+190,El Castillo Cr 84,6.2415,-75.6025,7
+190,Parque La Castellana,6.2405,-75.601,8
+190,Av 33 Cl 82A,6.2395,-75.6,9
+190,Iglesia Santa Gema,6.2385,-75.599,10
+190,Segundo Parque Laureles Cl 35,6.2375,-75.598,11
+190,Cl 36 Cr 77,6.2365,-75.597,12
+190,Cr 80 Cl 36,6.2355,-75.596,13
+190,Cr 80 Cl 37 (Lorena),6.2345,-75.595,14
+190,Primer Parque Laureles Cl 39D,6.2335,-75.594,15
+190,Circular 1,6.2325,-75.593,16
+190,UPB Circular 1,6.2315,-75.592,17
+190,Circular 1 Cr 66B,6.2305,-75.591,18
+190,Av Bolivariana Cr 66B,6.2295,-75.59,19
+190,Av Bolivariana Cl 39,6.2285,-75.589,20
+190,Cr 64B Cl 41,6.2275,-75.588,21
+190,Separador Alpujarra,6.229,-75.5885,22
+190,Cr 48 Cl 43,6.231,-75.5875,23
+190,Av Oriental Cl 45 (Colón),6.238,-75.5905,24
+190,Cr 45 Cl 49,6.242,-75.5915,25
+190,Av Oriental Cl 49,6.243,-75.592,26
+190,Parque San Antonio,6.244,-75.594,27
+190,Parque de las Luces,6.245,-75.595,28
+190,Av Bolivariana Cr 64 (San Joaquín),6.23,-75.5905,29
+190,Av Bolivariana Circular 6,6.231,-75.5915,30
+190,Av Bolivariana Circular 4,6.232,-75.5925,31
+190,Av 74B Cl 39B (Ay Caramba),6.2345,-75.5955,36
+190,Cr 80 Cl 38A (Lorena),6.2355,-75.5965,37
+190,Cr 80 Cl 38,6.236,-75.597,38
+190,Éxito Laureles Cr 80,6.237,-75.598,39
+190,Av 33 Cr 80B,6.238,-75.599,40
+190,Cr 84 Cl 33,6.2415,-75.602,44
+190,Cl 34 Cr 85B,6.2435,-75.604,46
+190,Cl 35 Cr 85D,6.2445,-75.605,47
+190,Cl 35 Cr 88 (Santa Teresita),6.247,-75.6075,48
+191,Cl 35C Cr 86A (La Almería),6.246,-75.6055,1
+191,Cl 35 Cr 87C,6.2468,-75.6065,2
+191,Cl 35 Cr 85D,6.2455,-75.6045,3
+191,Cl 35 Cr 84,6.2445,-75.6035,4
+191,Cl 35 Cr 81A,6.243,-75.6015,5
+191,Cl 35 Cr 80B,6.242,-75.6005,6
+191,Cl 35 Cr 80,6.2415,-75.6,7
+191,Segundo Parque Laureles Cl 35,6.2405,-75.599,8
+191,Transversal 38,6.239,-75.598,9
+191,Circular 72 Cl 39A,6.238,-75.597,10
+191,Circular 2,6.237,-75.596,11
+191,Circular 4 Cr 72,6.236,-75.595,12
+191,Circular 4,6.2355,-75.5945,13
+191,Cr 73 Cl 41,6.2345,-75.5935,14
+191,San Juan Cr 73,6.2335,-75.5925,15
+191,Cr 73 Cl 45A,6.2325,-75.5915,16
+191,Cl 47,6.2315,-75.5905,17
+191,Cl 48 Cr 73,6.2305,-75.5895,18
+191,Estadio Atanasio Girardot,6.2569,-75.5906,19
+191,Cr 74 Cl 48,6.2555,-75.5895,20
+191,Cr 74 Cl 48B,6.2545,-75.5885,21
+191,Av Colombia Cr 73,6.253,-75.5875,23
+191,Cl 50 Cr 71,6.252,-75.5865,24
+191,Cl 49B Cr 66 (Éxito Colombia),6.2505,-75.5855,25
+191,Suramericana,6.255,-75.59,26
+191,Minorista Cr 58,6.248,-75.5835,27
+191,Edificio de los Espejos,6.247,-75.5825,28
+191,Maracaibo,6.246,-75.5815,29
+191,CC Camino Real,6.245,-75.5805,30
+191,Iglesia San José,6.2445,-75.5795,31
+191,Av Oriental,6.2435,-75.588,32
+191,Parque San Antonio,6.244,-75.594,33
+191,Cl 44 San Juan,6.2425,-75.59,34
+191,Cr 50 Cl 44,6.243,-75.589,35
+191,Plazuela Nutibara,6.245,-75.593,37
+191,Parque Berrío (Carabobo),6.25,-75.563,38
+191,Cr 54,6.2485,-75.5875,39
+191,Biblioteca Pública Piloto,6.2555,-75.5885,41
+191,Aguamarina Mall Cl 51 Cr 64B,6.2565,-75.5895,42
+191,Universidad Luis Amigó Tv 51A,6.2575,-75.5905,43
+191,Av 70 Estadio,6.2585,-75.5915,44
+191,Coliseo Iván de Bedout Cr 70,6.2595,-75.5925,45
+191,Estación Estadio Cr 70,6.2605,-75.5935,46
+191,Cr 70 Cl 44A,6.2615,-75.5945,48
+191,Éxito La 70 Cr 70,6.2625,-75.5955,50
+191,Bancolombia La 70 Cr 70,6.2635,-75.5965,51
+191,UPB Capilla,6.2315,-75.592,52
+191,Circular 1,6.2325,-75.593,53
+191,El Colombiano Av Nutibara,6.2335,-75.594,54
+191,Juan Valdez Av Nutibara,6.2345,-75.595,55
+191,Segundo Parque Laureles Av 37,6.2355,-75.596,56
+191,Don Quijote Cl 35 Cr 80B,6.2415,-75.6005,57
+192,Cl 35B Cr 87A (La Almería),6.2468,-75.6065,1
+192,Cr 85 Cl 35,6.2455,-75.6045,2
+192,Cl 35 Cr 84,6.2445,-75.6035,3
+192,IPS Uni Adventista Cl 34,6.2435,-75.603,4
+192,Uni Adventista Cr 84,6.2425,-75.6025,5
+192,La Vaquita Av 33 Cr 83B,6.2415,-75.6015,6
+192,Santa Gema Av 33 Cr 81,6.2405,-75.6005,7
+192,Santa Gema 2,6.2395,-75.5995,8
+192,Cl 32E,6.2385,-75.5985,9
+192,Cementerio de Belén Cl 32C Cr 78,6.2375,-75.5975,10
+192,Cr 76 Cl 32E,6.2365,-75.5965,11
+192,Mobil Los Almendros Cl 32F,6.2355,-75.5955,12
+192,Estación Los Almendros Av 33 Cr 75C,6.2345,-75.5945,13
+192,UPB,6.2315,-75.592,14
+192,Unicentro Av 33 Cr 65C,6.2305,-75.591,15
+192,Cerro Nutibara Av 33 Cr 63B,6.2295,-75.59,16
+192,Diane & Geordi Cl 37 Cr 46,6.2285,-75.589,17
+192,El Palo Cr 45 Cl 38,6.2275,-75.588,18
+192,El Palo Cr 45 Cl 46,6.2265,-75.587,19
+192,El Palo Cr 45 Cl 47,6.2255,-75.586,20
+192,Cl 48 Cr 44,6.2245,-75.585,21
+192,El Palo Cr 45 Cl 48,6.2235,-75.584,22
+192,Cr 45 Cl 49,6.2225,-75.583,23
+192,Cr 45 Cl 50 (La Candelaria),6.2385,-75.5905,24
+192,Iglesia San José,6.2445,-75.5795,25
+192,Av Oriental,6.2435,-75.588,26
+192,Parque San Antonio,6.244,-75.594,27
+192,Estación Esso Cr 43A 41,6.232,-75.5785,28
+192,Torres San Sebastián (Colón),6.2335,-75.5795,29
+192,Honda Super Motos Cl 37 Cr 48,6.2345,-75.5805,30
+192,Plaza Mayor Cl 37 Cr 52,6.236,-75.582,32
+192,Conquistadores Cr 64 Cl 33,6.2375,-75.584,33
+192,Yamaha Cl 33 Cr 65B,6.2385,-75.585,34
+192,Av 33 Cr 65C,6.2395,-75.586,35
+192,Biolab Av 33 Cr 74B,6.2405,-75.5875,37
+192,Cl 34 Cr 85B,6.2445,-75.604,44
+192,Cl 35 Cr 85D,6.2455,-75.605,45
+192,La Almería Cl 35B,6.2465,-75.606,46
+193,Cl 35C Cr 87 (La Almería),6.2465,-75.6065,1
+193,Cl 35 La Almería,6.246,-75.6055,2
+193,Cl 35 Cr 85D,6.2455,-75.6045,3
+193,Cl 34 Cr 85B,6.2445,-75.604,4
+193,Centro Médico Adventista,6.2435,-75.6035,5
+193,Universidad Adventista,6.2425,-75.603,6
+193,El Castillo CAI Cr 84,6.2415,-75.6025,7
+193,Parque La Castellana,6.2405,-75.6015,8
+193,Av 33 Cl 82A,6.2395,-75.6005,9
+193,Iglesia Santa Gema,6.2385,-75.5995,10
+193,Av 33 Cr 80B,6.2375,-75.5985,11
+193,Av 33 Cr 65,6.2365,-75.5975,12
+193,Coomeva Av 33,6.2355,-75.5965,13
+193,Glorieta Bulerías,6.2345,-75.5955,14
+193,Av 33 Cl 66B,6.2335,-75.5945,15
+193,Fátima,6.2325,-75.5935,16
+193,Cr 65 Cl 38,6.2315,-75.5925,17
+193,Cr 65 Cl 39,6.2305,-75.5915,18
+193,Cr 65 Cl 41,6.2295,-75.5905,19
+193,Cr 65 Cl 43 (San Joaquín),6.2285,-75.5895,20
+193,Cr 65 Cl 47D (Naranjal),6.2275,-75.5885,21
+193,Cl 50 Cr 65 (Suramericana),6.255,-75.59,22
+193,Cl 50 Cr 64B,6.254,-75.589,23
+193,Cr 56B Cl 49,6.2525,-75.588,24
+193,Dg 50 Cr 49,6.2505,-75.587,25
+193,SENA Av Colombia,6.253,-75.5875,26
+193,Peatonal Suramericana,6.2545,-75.5895,27
+193,Cl 50 Cr 65 (Carlos E Restrepo),6.2555,-75.5905,28
+193,Cl Colombia Cr 66,6.2565,-75.5915,29
+193,Tv 51A Cl 51,6.2575,-75.5925,30
+193,Universidad Luis Amigó,6.2585,-75.5935,31
+193,Cr 70 Cl 52 (Cuarta Brigada),6.2595,-75.5945,32
+193,Cr 70 Cl 51,6.2605,-75.5955,33
+193,Liceo Marco Fidel Suárez,6.2615,-75.5965,34
+193,Unidad Deportiva Atanasio Girardot,6.2569,-75.5906,35
+193,Estación Estadio Cr 70,6.2625,-75.5975,36
+193,Cr 70 Cl 44,6.2635,-75.5985,37
+193,Cr 70 Cl 43,6.2645,-75.5995,38
+193,Cr 70 Cl 41A,6.2655,-75.6005,39
+193,Cr 70 Circular 1,6.2665,-75.6015,40
+193,UPB Circular 1,6.2315,-75.592,41
+193,Circular 1 Cr 66B,6.2305,-75.591,42
+193,UPB Principal,6.232,-75.5925,43
+193,Biolab Av 33 Cr 74B,6.2335,-75.5955,44
+193,Cl 35 Cr 88 (Santa Teresita),6.247,-75.6075,57
+287,Terminal del Norte Cl 83 Autopista Norte,6.28,-75.57,1
+287,Colanta Cr 64A Terminal Norte,6.279,-75.571,2
+287,TCC Cr 64 Cl 67B,6.2705,-75.5695,3
+287,Puente Horacio Toro / Minorista,6.268,-75.5685,4
+287,Av Oriental Cl 56 (Villa Nueva),6.2625,-75.5855,5
+287,Av Oriental Av La Playa,6.2585,-75.5875,6
+287,Cl 49 Cr 47 (La Candelaria),6.2445,-75.5895,7
+287,Dg 50 Cr 50,6.2455,-75.5905,8
+287,SENA Cr 59 Cl 53,6.2525,-75.5865,9
+287,Plaza Minorista Cr 59 Cl 54,6.2535,-75.5855,10
+287,U. Nacional Autopista Norte Cl 65,6.2655,-75.5715,11
+287,Puente Punto Cero Cl 67 Autopista Norte,6.2685,-75.571,12
+287,Secretaría de Movilidad Cl 72 Autopista Norte,6.2735,-75.5705,13
+302,Cr 81 Cl 42C,6.2555,-75.6105,1
+302,Av 80 Cl 37D,6.2535,-75.609,2
+302,Lava Autos La 80 Cr 81 Cl 34,6.2525,-75.6085,3
+302,Av 80 Cl 34,6.2515,-75.608,4
+302,Santa Gema Cr 81 Cl 33A,6.2505,-75.6075,5
+302,Cr 81 Cl 32EE,6.2495,-75.607,6
+302,Cr 81 Cl 32,6.2485,-75.6065,7
+302,Cr 81 Cl 30A,6.2475,-75.606,8
+302,Cr 81 Cl 28A,6.2465,-75.6055,9
+302,Cr 81 Cl 25,6.2455,-75.605,10
+302,Cl 20A Cr 80A,6.244,-75.6035,11
+302,Dg 79 Cl 15,6.2425,-75.602,12
+302,Dg 79D Cl 9,6.241,-75.6005,13
+302,Dg 75D Cl 5,6.2395,-75.599,14
+302,Dg 75B Cl 1,6.238,-75.5975,15
+302,Dg 75B Cl 1 Sur,6.2365,-75.596,16
+302,Cl 2 Sur Cr 65,6.2305,-75.5905,17
+302,Cl 6 Sur Cr 52,6.2255,-75.5855,18
+302,Cl 6 Sur Cr 51,6.2245,-75.5845,19
+302,Cr 50FF Cl 7,6.2235,-75.5835,20
+302,Cr 50FF Cl 10,6.2225,-75.5825,21
+302,Cl 12 Sur Cr 50C,6.2215,-75.5815,22
+302,Sura Aguacatala,6.2055,-75.578,23
+302,Las Vegas Aguacatala,6.2045,-75.577,24
+302,Las Vegas EAFIT,6.2035,-75.576,25
+302,INEM Clínica Las Vegas,6.2025,-75.575,26
+302,EAFIT,6.2015,-75.574,27
+302,Las Vegas Politécnico,6.2005,-75.573,28
+302,Politécnico Jaime Isaza Cadavid,6.1995,-75.572,29
+302,Las Vegas Cl 10,6.2105,-75.5685,30
+302,CC Monterrey,6.2095,-75.5685,31
+302,Cr 48 Cl 16,6.224,-75.5825,32
+302,Ciudad del Río Cr 48 Cl 17,6.225,-75.5835,33
+302,Mercados del Río Cr 48 Cl 24,6.2275,-75.585,34
+302,Pier 30 Outlet,6.229,-75.5865,35
+302,Bancolombia Punto Clave,6.231,-75.588,36
+302,Perpetuo Socorro Cr 50 Cl 35,6.2325,-75.589,37
+302,Estación Exposiciones Cr 50 Cl 35,6.2335,-75.59,38
+302,AKT,6.2345,-75.591,39
+302,Cl 41 Cr 48,6.2355,-75.592,40
+302,Cr 43A Cl 41,6.2365,-75.593,41
+302,Parque San Antonio Av Oriental,6.244,-75.594,42
+302,Iglesia San José,6.2445,-75.5795,43
+302,CC Camino Real,6.245,-75.5805,44
+302,Edificio de los Espejos,6.247,-75.5825,45
+302,Prado Cl 58,6.258,-75.58,46
+302,Clínica CES Prado Cr 51,6.259,-75.581,47
+302,Prado Bus,6.26,-75.582,48
+302,Cr 52 Cl 57,6.261,-75.583,49
+302,Plaza Minorista,6.2535,-75.5855,50
+302,SENA,6.2525,-75.5865,51
+302,Cr 57 Cl 49,6.2515,-75.5875,52
+302,Cr 57 Cl 46,6.2505,-75.5885,53
+302,Estación Cisneros,6.2495,-75.5895,54
+302,La Macarena,6.2485,-75.5905,55
+302,Homecenter Makro,6.2475,-75.5915,56
+302,Seguros Bolívar,6.2465,-75.5925,57
+302,Estación Texaco Cl 44 Cr 70,6.2455,-75.5935,58
+302,Cl 44 Cr 76,6.2445,-75.5945,59
+302,Colsubsidio Cl 44 Cr 77,6.2435,-75.5955,60
+302,Plaza Mercado La América,6.2425,-75.5965,61
+302,Capillas de San Juan,6.2415,-75.5975,62
+302,Vitha,6.2405,-75.5985,63
+302,Av San Juan Cr 79B,6.2395,-75.5995,64

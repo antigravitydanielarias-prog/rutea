@@ -1,0 +1,2391 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_45b6862392c09aa6b68658dbea4870d6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_45b6862392c09aa6b68658dbea4870d6" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_45b6862392c09aa6b68658dbea4870d6 = L.map(
+                "map_45b6862392c09aa6b68658dbea4870d6",
+                {
+                    center: [6.2442, -75.5812],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_88aab91d0a310b214936e2935baf66ad = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_88aab91d0a310b214936e2935baf66ad.addTo(map_45b6862392c09aa6b68658dbea4870d6);
+        
+    
+            var marker_cluster_49cb47afbc78eb2d3906a1cbfff59017 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_b528887d449e652de45209546eedc10d = L.marker(
+                [6.3045992, -75.5655243],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_8d57dfbde9e3bdd6f25ca73ef993e9c8 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_3caef19949c35a617cb7991c69670026 = $(`<div id="html_3caef19949c35a617cb7991c69670026" style="width: 100.0%; height: 100.0%;">     <b>SEC ESC DIVINA PROVIDENCIA</b><br>     Comuna: 1 - POPULAR<br>     Tipo: IE<br>     Dirección: CL 108 43 B 17<br>     Latitud: 6.3045992<br>     Longitud: -75.5655243     </div>`)[0];
+                popup_8d57dfbde9e3bdd6f25ca73ef993e9c8.setContent(html_3caef19949c35a617cb7991c69670026);
+            
+        
+
+        marker_b528887d449e652de45209546eedc10d.bindPopup(popup_8d57dfbde9e3bdd6f25ca73ef993e9c8)
+        ;
+
+        
+    
+    
+            marker_b528887d449e652de45209546eedc10d.bindTooltip(
+                `<div>
+                     SEC ESC DIVINA PROVIDENCIA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_36db8265b6bd4bfd16c9212f19f4e2ef = L.marker(
+                [6.2923778, -75.5800033],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_fa83f3687e9906cccbe33edafb3449cb = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_e552c7d8ebde303fe8b92838e20ac0a3 = $(`<div id="html_e552c7d8ebde303fe8b92838e20ac0a3" style="width: 100.0%; height: 100.0%;">     <b>SEC ESC AGRIPINA MONTES DEL VALLE</b><br>     Comuna: 1 - POPULAR<br>     Tipo: IE<br>     Dirección: CLL 95 NO 42B-44<br>     Latitud: 6.2923778<br>     Longitud: -75.5800033     </div>`)[0];
+                popup_fa83f3687e9906cccbe33edafb3449cb.setContent(html_e552c7d8ebde303fe8b92838e20ac0a3);
+            
+        
+
+        marker_36db8265b6bd4bfd16c9212f19f4e2ef.bindPopup(popup_fa83f3687e9906cccbe33edafb3449cb)
+        ;
+
+        
+    
+    
+            marker_36db8265b6bd4bfd16c9212f19f4e2ef.bindTooltip(
+                `<div>
+                     SEC ESC AGRIPINA MONTES DEL VALLE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f3e1fcb7a11b05c9492029ea3c8dcbb4 = L.marker(
+                [6.289682, -75.5564494],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_31b53192522457bdd33f57dff5f79157 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_db3268313d6a077780bc0155b7e403f9 = $(`<div id="html_db3268313d6a077780bc0155b7e403f9" style="width: 100.0%; height: 100.0%;">     <b>INST EDUC SAN PABLO</b><br>     Comuna: 1 - POPULAR<br>     Tipo: IE<br>     Dirección: CL 98 B 37 38<br>     Latitud: 6.289682<br>     Longitud: -75.5564494     </div>`)[0];
+                popup_31b53192522457bdd33f57dff5f79157.setContent(html_db3268313d6a077780bc0155b7e403f9);
+            
+        
+
+        marker_f3e1fcb7a11b05c9492029ea3c8dcbb4.bindPopup(popup_31b53192522457bdd33f57dff5f79157)
+        ;
+
+        
+    
+    
+            marker_f3e1fcb7a11b05c9492029ea3c8dcbb4.bindTooltip(
+                `<div>
+                     INST EDUC SAN PABLO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e891d5a6e614eadfd43943666e660483 = L.marker(
+                [6.2875882, -75.5522057],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_f19c1d218dc67e8e415cbf9918fa8c60 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_7cb7e31322796c1767ca8057914bf62d = $(`<div id="html_7cb7e31322796c1767ca8057914bf62d" style="width: 100.0%; height: 100.0%;">     <b>SEC ESC MEDELLIN</b><br>     Comuna: 1 - POPULAR<br>     Tipo: IE<br>     Dirección: CL 96  36-45<br>     Latitud: 6.2875882<br>     Longitud: -75.5522057     </div>`)[0];
+                popup_f19c1d218dc67e8e415cbf9918fa8c60.setContent(html_7cb7e31322796c1767ca8057914bf62d);
+            
+        
+
+        marker_e891d5a6e614eadfd43943666e660483.bindPopup(popup_f19c1d218dc67e8e415cbf9918fa8c60)
+        ;
+
+        
+    
+    
+            marker_e891d5a6e614eadfd43943666e660483.bindTooltip(
+                `<div>
+                     SEC ESC MEDELLIN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_59f2c99183a49bc7bc57ac15ab759aa8 = L.marker(
+                [6.2979838, -75.5795394],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_38e6a7c8ed376b8a16fd3ed00436e6b5 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_4359c52c7652b5dcb2f493f537a326bf = $(`<div id="html_4359c52c7652b5dcb2f493f537a326bf" style="width: 100.0%; height: 100.0%;">     <b>SEC ESC MARCO FIDEL SUAREZ</b><br>     Comuna: 1 - POPULAR<br>     Tipo: IE<br>     Dirección: CL 99  37-18<br>     Latitud: 6.2979838<br>     Longitud: -75.5795394     </div>`)[0];
+                popup_38e6a7c8ed376b8a16fd3ed00436e6b5.setContent(html_4359c52c7652b5dcb2f493f537a326bf);
+            
+        
+
+        marker_59f2c99183a49bc7bc57ac15ab759aa8.bindPopup(popup_38e6a7c8ed376b8a16fd3ed00436e6b5)
+        ;
+
+        
+    
+    
+            marker_59f2c99183a49bc7bc57ac15ab759aa8.bindTooltip(
+                `<div>
+                     SEC ESC MARCO FIDEL SUAREZ
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_17a2d813a048e001b67b8914d9850010 = L.marker(
+                [6.2912084, -75.560561],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_a84cbe8dbe6822ac58d179d0e927b6c3 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_7c95e89c7379552ba48d449a3a5720ea = $(`<div id="html_7c95e89c7379552ba48d449a3a5720ea" style="width: 100.0%; height: 100.0%;">     <b>SEC ESC CARPINELO AMAPOLITA</b><br>     Comuna: 1 - POPULAR<br>     Tipo: IE<br>     Dirección: CL 97  23-12<br>     Latitud: 6.2912084<br>     Longitud: -75.560561     </div>`)[0];
+                popup_a84cbe8dbe6822ac58d179d0e927b6c3.setContent(html_7c95e89c7379552ba48d449a3a5720ea);
+            
+        
+
+        marker_17a2d813a048e001b67b8914d9850010.bindPopup(popup_a84cbe8dbe6822ac58d179d0e927b6c3)
+        ;
+
+        
+    
+    
+            marker_17a2d813a048e001b67b8914d9850010.bindTooltip(
+                `<div>
+                     SEC ESC CARPINELO AMAPOLITA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9ead08d974cf9898e6149f525e8f390e = L.marker(
+                [6.2936367, -75.543393],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_f5d0cbac784ab4331667fdb96cb29b3b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_fc224015432a5a6d792218992fc76c6c = $(`<div id="html_fc224015432a5a6d792218992fc76c6c" style="width: 100.0%; height: 100.0%;">     <b>INST EDUC LA CANDELARIA</b><br>     Comuna: 1 - POPULAR<br>     Tipo: IE<br>     Dirección: CL 106 32 100<br>     Latitud: 6.2936367<br>     Longitud: -75.543393     </div>`)[0];
+                popup_f5d0cbac784ab4331667fdb96cb29b3b.setContent(html_fc224015432a5a6d792218992fc76c6c);
+            
+        
+
+        marker_9ead08d974cf9898e6149f525e8f390e.bindPopup(popup_f5d0cbac784ab4331667fdb96cb29b3b)
+        ;
+
+        
+    
+    
+            marker_9ead08d974cf9898e6149f525e8f390e.bindTooltip(
+                `<div>
+                     INST EDUC LA CANDELARIA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_47e5cff4beab9cb8eb4f4dec0fbb4db9 = L.marker(
+                [6.3045992, -75.5655243],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_7ee188572d40e38192179705dc25f876 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_26b9dd766245ce5d0ee18406633ff759 = $(`<div id="html_26b9dd766245ce5d0ee18406633ff759" style="width: 100.0%; height: 100.0%;">     <b>ESC POPULAR EUCARISTICA JULIO C. HERNANDEZ</b><br>     Comuna: 1 - POPULAR<br>     Tipo: IE<br>     Dirección: CL 108 43 16<br>     Latitud: 6.3045992<br>     Longitud: -75.5655243     </div>`)[0];
+                popup_7ee188572d40e38192179705dc25f876.setContent(html_26b9dd766245ce5d0ee18406633ff759);
+            
+        
+
+        marker_47e5cff4beab9cb8eb4f4dec0fbb4db9.bindPopup(popup_7ee188572d40e38192179705dc25f876)
+        ;
+
+        
+    
+    
+            marker_47e5cff4beab9cb8eb4f4dec0fbb4db9.bindTooltip(
+                `<div>
+                     ESC POPULAR EUCARISTICA JULIO C. HERNANDEZ
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f714f638a07c88c6e39504c3de405ce8 = L.marker(
+                [6.3040752, -75.5503742],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_167a4d1b3dc49ff7aeb6e36a3b2cb3b6 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f810f8a97a0ed4978bacfd872a5ae07f = $(`<div id="html_f810f8a97a0ed4978bacfd872a5ae07f" style="width: 100.0%; height: 100.0%;">     <b>INST EDUC JOSE MARIA VELAZ</b><br>     Comuna: 2 - SANTA CRUZ<br>     Tipo: IE<br>     Dirección: CL 121 48 67<br>     Latitud: 6.3040752<br>     Longitud: -75.5503742     </div>`)[0];
+                popup_167a4d1b3dc49ff7aeb6e36a3b2cb3b6.setContent(html_f810f8a97a0ed4978bacfd872a5ae07f);
+            
+        
+
+        marker_f714f638a07c88c6e39504c3de405ce8.bindPopup(popup_167a4d1b3dc49ff7aeb6e36a3b2cb3b6)
+        ;
+
+        
+    
+    
+            marker_f714f638a07c88c6e39504c3de405ce8.bindTooltip(
+                `<div>
+                     INST EDUC JOSE MARIA VELAZ
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ad0f2be90de343268e3d5124a19babdb = L.marker(
+                [6.2922736, -75.5503826],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_81121a72f67cdefd6a93ebecb4187407 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b1b694e326f0043fa9d94bdbe85ac5dc = $(`<div id="html_b1b694e326f0043fa9d94bdbe85ac5dc" style="width: 100.0%; height: 100.0%;">     <b>INST EDUC BARRIO SANTA CRUZ</b><br>     Comuna: 2 - SANTA CRUZ<br>     Tipo: IE<br>     Dirección: CL 103 43 A 45<br>     Latitud: 6.2922736<br>     Longitud: -75.5503826     </div>`)[0];
+                popup_81121a72f67cdefd6a93ebecb4187407.setContent(html_b1b694e326f0043fa9d94bdbe85ac5dc);
+            
+        
+
+        marker_ad0f2be90de343268e3d5124a19babdb.bindPopup(popup_81121a72f67cdefd6a93ebecb4187407)
+        ;
+
+        
+    
+    
+            marker_ad0f2be90de343268e3d5124a19babdb.bindTooltip(
+                `<div>
+                     INST EDUC BARRIO SANTA CRUZ
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0374c97ceaa92cfb7a92cfe56f2cbdab = L.marker(
+                [6.2890342, -75.5516184],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_2aed2cd78a64c8e2993b11a8ab6328cb = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f983b6e0c3f482de4b40ec79b0474a8a = $(`<div id="html_f983b6e0c3f482de4b40ec79b0474a8a" style="width: 100.0%; height: 100.0%;">     <b>INST EDUC CIRO MENDIA</b><br>     Comuna: 2 - SANTA CRUZ<br>     Tipo: IE<br>     Dirección: CL 99 48 55<br>     Latitud: 6.2890342<br>     Longitud: -75.5516184     </div>`)[0];
+                popup_2aed2cd78a64c8e2993b11a8ab6328cb.setContent(html_f983b6e0c3f482de4b40ec79b0474a8a);
+            
+        
+
+        marker_0374c97ceaa92cfb7a92cfe56f2cbdab.bindPopup(popup_2aed2cd78a64c8e2993b11a8ab6328cb)
+        ;
+
+        
+    
+    
+            marker_0374c97ceaa92cfb7a92cfe56f2cbdab.bindTooltip(
+                `<div>
+                     INST EDUC CIRO MENDIA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fbdef506e561072fbae50459b3b98792 = L.marker(
+                [6.2620716, -75.5454688],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_abef94c7b7fcc69a2491e53a842b6e84 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_58741cd398a27240eb5de0d3b271dd73 = $(`<div id="html_58741cd398a27240eb5de0d3b271dd73" style="width: 100.0%; height: 100.0%;">     <b>SEC ESC SANTA MARIA GORETTI</b><br>     Comuna: 4 - ARANJUEZ<br>     Tipo: IE<br>     Dirección: CL 67 48A 32<br>     Latitud: 6.2620716<br>     Longitud: -75.5454688     </div>`)[0];
+                popup_abef94c7b7fcc69a2491e53a842b6e84.setContent(html_58741cd398a27240eb5de0d3b271dd73);
+            
+        
+
+        marker_fbdef506e561072fbae50459b3b98792.bindPopup(popup_abef94c7b7fcc69a2491e53a842b6e84)
+        ;
+
+        
+    
+    
+            marker_fbdef506e561072fbae50459b3b98792.bindTooltip(
+                `<div>
+                     SEC ESC SANTA MARIA GORETTI
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d59bfd4f42646c4a1090ac7d1cbb71a4 = L.marker(
+                [6.2840268, -75.5633508],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_db7f09210357dd0bfd4c56adaea23861 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_9c1ecbc4b59362b6ee94372f4e1cd02e = $(`<div id="html_9c1ecbc4b59362b6ee94372f4e1cd02e" style="width: 100.0%; height: 100.0%;">     <b>INST EDUC GILBERTO ALZATE AVENDAÑO</b><br>     Comuna: 4 - ARANJUEZ<br>     Tipo: IE<br>     Dirección: CL 92 51 A 100<br>     Latitud: 6.2840268<br>     Longitud: -75.5633508     </div>`)[0];
+                popup_db7f09210357dd0bfd4c56adaea23861.setContent(html_9c1ecbc4b59362b6ee94372f4e1cd02e);
+            
+        
+
+        marker_d59bfd4f42646c4a1090ac7d1cbb71a4.bindPopup(popup_db7f09210357dd0bfd4c56adaea23861)
+        ;
+
+        
+    
+    
+            marker_d59bfd4f42646c4a1090ac7d1cbb71a4.bindTooltip(
+                `<div>
+                     INST EDUC GILBERTO ALZATE AVENDAÑO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a8bd2e20b343dea96a865122cd9fb316 = L.marker(
+                [6.293664, -75.5897365],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_dec18984cd1d88d5758a1e7af30ebd2f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_79dc92d1a9b3467e4be1a05e9d6fbb88 = $(`<div id="html_79dc92d1a9b3467e4be1a05e9d6fbb88" style="width: 100.0%; height: 100.0%;">     <b>SEC ESC EPIFANIO MEJIA</b><br>     Comuna: 4 - ARANJUEZ<br>     Tipo: IE<br>     Dirección: CL 90 50A-09<br>     Latitud: 6.293664<br>     Longitud: -75.5897365     </div>`)[0];
+                popup_dec18984cd1d88d5758a1e7af30ebd2f.setContent(html_79dc92d1a9b3467e4be1a05e9d6fbb88);
+            
+        
+
+        marker_a8bd2e20b343dea96a865122cd9fb316.bindPopup(popup_dec18984cd1d88d5758a1e7af30ebd2f)
+        ;
+
+        
+    
+    
+            marker_a8bd2e20b343dea96a865122cd9fb316.bindTooltip(
+                `<div>
+                     SEC ESC EPIFANIO MEJIA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8114815b15f98c558b014be68ec30aaf = L.marker(
+                [6.2698297, -75.6355031],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_51c562d0d4e1a3b2908e1c7f2e78a712 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_84ce15a405e6c53c1cd3b381e3b0d375 = $(`<div id="html_84ce15a405e6c53c1cd3b381e3b0d375" style="width: 100.0%; height: 100.0%;">     <b>INST EDUC FRANCISCO LUIS HERNANDEZ BETANCUR</b><br>     Comuna: 4 - ARANJUEZ<br>     Tipo: IE<br>     Dirección: CL 87 50 AA 21<br>     Latitud: 6.2698297<br>     Longitud: -75.6355031     </div>`)[0];
+                popup_51c562d0d4e1a3b2908e1c7f2e78a712.setContent(html_84ce15a405e6c53c1cd3b381e3b0d375);
+            
+        
+
+        marker_8114815b15f98c558b014be68ec30aaf.bindPopup(popup_51c562d0d4e1a3b2908e1c7f2e78a712)
+        ;
+
+        
+    
+    
+            marker_8114815b15f98c558b014be68ec30aaf.bindTooltip(
+                `<div>
+                     INST EDUC FRANCISCO LUIS HERNANDEZ BETANCUR
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_70adfbc7ac2630fe750463b19d489f85 = L.marker(
+                [6.2698297, -75.6355031],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_f59900071c52f6fb34aeccb1777ee930 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d594fd88a08d5c80a70ab36956089564 = $(`<div id="html_d594fd88a08d5c80a70ab36956089564" style="width: 100.0%; height: 100.0%;">     <b>COL NUESTRA SENORA DE LOURDES</b><br>     Comuna: 4 - ARANJUEZ<br>     Tipo: IE<br>     Dirección: CL 82 50 BB 30<br>     Latitud: 6.2698297<br>     Longitud: -75.6355031     </div>`)[0];
+                popup_f59900071c52f6fb34aeccb1777ee930.setContent(html_d594fd88a08d5c80a70ab36956089564);
+            
+        
+
+        marker_70adfbc7ac2630fe750463b19d489f85.bindPopup(popup_f59900071c52f6fb34aeccb1777ee930)
+        ;
+
+        
+    
+    
+            marker_70adfbc7ac2630fe750463b19d489f85.bindTooltip(
+                `<div>
+                     COL NUESTRA SENORA DE LOURDES
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d6cd1a0b2aa4aea8303601b71e4e6f00 = L.marker(
+                [6.3011767, -75.5469146],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_966307d116d5f1ab7c90c5085100a724 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b217fdea195e80f0443ee24d5949fb2c = $(`<div id="html_b217fdea195e80f0443ee24d5949fb2c" style="width: 100.0%; height: 100.0%;">     <b>INST EDUC DIEGO ECHAVARRIA MISAS</b><br>     Comuna: 5 - CASTILLA<br>     Tipo: IE<br>     Dirección: CL 111 70 68<br>     Latitud: 6.3011767<br>     Longitud: -75.5469146     </div>`)[0];
+                popup_966307d116d5f1ab7c90c5085100a724.setContent(html_b217fdea195e80f0443ee24d5949fb2c);
+            
+        
+
+        marker_d6cd1a0b2aa4aea8303601b71e4e6f00.bindPopup(popup_966307d116d5f1ab7c90c5085100a724)
+        ;
+
+        
+    
+    
+            marker_d6cd1a0b2aa4aea8303601b71e4e6f00.bindTooltip(
+                `<div>
+                     INST EDUC DIEGO ECHAVARRIA MISAS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d7ee48f3ee1ff78e7255762e9f04f93f = L.marker(
+                [6.280862, -75.5742729],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_6217f5a1202be9afc8690088f596fe33 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_eb7e6ac43131e4fc1efa68abd47cfaf5 = $(`<div id="html_eb7e6ac43131e4fc1efa68abd47cfaf5" style="width: 100.0%; height: 100.0%;">     <b>INST EDUC LUIS LOPEZ DE MESA</b><br>     Comuna: 7 - ROBLEDO<br>     Tipo: IE<br>     Dirección: CL 84 74 60<br>     Latitud: 6.280862<br>     Longitud: -75.5742729     </div>`)[0];
+                popup_6217f5a1202be9afc8690088f596fe33.setContent(html_eb7e6ac43131e4fc1efa68abd47cfaf5);
+            
+        
+
+        marker_d7ee48f3ee1ff78e7255762e9f04f93f.bindPopup(popup_6217f5a1202be9afc8690088f596fe33)
+        ;
+
+        
+    
+    
+            marker_d7ee48f3ee1ff78e7255762e9f04f93f.bindTooltip(
+                `<div>
+                     INST EDUC LUIS LOPEZ DE MESA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f3377d9dee32772764501f2f7ec9c013 = L.marker(
+                [6.279077, -75.5623185],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_5f18a32c4ddca22604a1a6b0286c0fce = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d12302dbeef3a0f3292d98f9a1c384f9 = $(`<div id="html_d12302dbeef3a0f3292d98f9a1c384f9" style="width: 100.0%; height: 100.0%;">     <b>INST EDUC FE Y ALEGRIA SAN JOSE</b><br>     Comuna: 7 - ROBLEDO<br>     Tipo: IE<br>     Dirección: CL 86 92 60<br>     Latitud: 6.279077<br>     Longitud: -75.5623185     </div>`)[0];
+                popup_5f18a32c4ddca22604a1a6b0286c0fce.setContent(html_d12302dbeef3a0f3292d98f9a1c384f9);
+            
+        
+
+        marker_f3377d9dee32772764501f2f7ec9c013.bindPopup(popup_5f18a32c4ddca22604a1a6b0286c0fce)
+        ;
+
+        
+    
+    
+            marker_f3377d9dee32772764501f2f7ec9c013.bindTooltip(
+                `<div>
+                     INST EDUC FE Y ALEGRIA SAN JOSE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6d9aeaf6a8b029bae257f578e3ff72d1 = L.marker(
+                [6.2760979, -75.5991515],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_f729df697f18c529aab7b322c831ea5c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_e2f2823b1d80e89ece270755fd2d5884 = $(`<div id="html_e2f2823b1d80e89ece270755fd2d5884" style="width: 100.0%; height: 100.0%;">     <b>INST EDUC MARISCAL ROBLEDO</b><br>     Comuna: 7 - ROBLEDO<br>     Tipo: IE<br>     Dirección: CL 65 84 87<br>     Latitud: 6.2760979<br>     Longitud: -75.5991515     </div>`)[0];
+                popup_f729df697f18c529aab7b322c831ea5c.setContent(html_e2f2823b1d80e89ece270755fd2d5884);
+            
+        
+
+        marker_6d9aeaf6a8b029bae257f578e3ff72d1.bindPopup(popup_f729df697f18c529aab7b322c831ea5c)
+        ;
+
+        
+    
+    
+            marker_6d9aeaf6a8b029bae257f578e3ff72d1.bindTooltip(
+                `<div>
+                     INST EDUC MARISCAL ROBLEDO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ce73d57f989a851eba56697a032dccbe = L.marker(
+                [6.2794447, -75.5933348],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_feca806b1ddf8f4cd1ca7606e2d13abe = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_74388552da180416de4919cb40ec2dca = $(`<div id="html_74388552da180416de4919cb40ec2dca" style="width: 100.0%; height: 100.0%;">     <b>SEC ESC CONRADO GONZÁLEZ MEJÍA</b><br>     Comuna: 7 - ROBLEDO<br>     Tipo: IE<br>     Dirección: CL 76 80 496<br>     Latitud: 6.2794447<br>     Longitud: -75.5933348     </div>`)[0];
+                popup_feca806b1ddf8f4cd1ca7606e2d13abe.setContent(html_74388552da180416de4919cb40ec2dca);
+            
+        
+
+        marker_ce73d57f989a851eba56697a032dccbe.bindPopup(popup_feca806b1ddf8f4cd1ca7606e2d13abe)
+        ;
+
+        
+    
+    
+            marker_ce73d57f989a851eba56697a032dccbe.bindTooltip(
+                `<div>
+                     SEC ESC CONRADO GONZÁLEZ MEJÍA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_36e1d1c60876840b273c6cd061ea011e = L.marker(
+                [6.2760979, -75.5991515],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_55480c044337de972632b45e33ed0073 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_807d26948c3d4508704b721b1adbabde = $(`<div id="html_807d26948c3d4508704b721b1adbabde" style="width: 100.0%; height: 100.0%;">     <b>INST EDUC JORGE ROBLEDO</b><br>     Comuna: 7 - ROBLEDO<br>     Tipo: IE<br>     Dirección: CL 65 87 74<br>     Latitud: 6.2760979<br>     Longitud: -75.5991515     </div>`)[0];
+                popup_55480c044337de972632b45e33ed0073.setContent(html_807d26948c3d4508704b721b1adbabde);
+            
+        
+
+        marker_36e1d1c60876840b273c6cd061ea011e.bindPopup(popup_55480c044337de972632b45e33ed0073)
+        ;
+
+        
+    
+    
+            marker_36e1d1c60876840b273c6cd061ea011e.bindTooltip(
+                `<div>
+                     INST EDUC JORGE ROBLEDO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fda46253f0826f41237b660d4c8df57e = L.marker(
+                [6.2837052, -75.6072037],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_ff6151a815730408d4a9e43c827c7c41 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_5875283ee53659d8f61273ddf07594fd = $(`<div id="html_5875283ee53659d8f61273ddf07594fd" style="width: 100.0%; height: 100.0%;">     <b>INST EDUC RAFAEL GARCIA HERREROS</b><br>     Comuna: 7 - ROBLEDO<br>     Tipo: IE<br>     Dirección: CL 64 91 20<br>     Latitud: 6.2837052<br>     Longitud: -75.6072037     </div>`)[0];
+                popup_ff6151a815730408d4a9e43c827c7c41.setContent(html_5875283ee53659d8f61273ddf07594fd);
+            
+        
+
+        marker_fda46253f0826f41237b660d4c8df57e.bindPopup(popup_ff6151a815730408d4a9e43c827c7c41)
+        ;
+
+        
+    
+    
+            marker_fda46253f0826f41237b660d4c8df57e.bindTooltip(
+                `<div>
+                     INST EDUC RAFAEL GARCIA HERREROS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f7fefdffa3237787d7700dbba4c50500 = L.marker(
+                [6.2569329, -75.5623072],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_d9e5de3def6d3cb7c11fbac0b9f69fdb = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_db2c469381f9bfc0b44af3ddac457cae = $(`<div id="html_db2c469381f9bfc0b44af3ddac457cae" style="width: 100.0%; height: 100.0%;">     <b>INST EDUC TULIO OSPINA</b><br>     Comuna: 10 - LA CANDELARIA<br>     Tipo: IE<br>     Dirección: CL 60 51 48<br>     Latitud: 6.2569329<br>     Longitud: -75.5623072     </div>`)[0];
+                popup_d9e5de3def6d3cb7c11fbac0b9f69fdb.setContent(html_db2c469381f9bfc0b44af3ddac457cae);
+            
+        
+
+        marker_f7fefdffa3237787d7700dbba4c50500.bindPopup(popup_d9e5de3def6d3cb7c11fbac0b9f69fdb)
+        ;
+
+        
+    
+    
+            marker_f7fefdffa3237787d7700dbba4c50500.bindTooltip(
+                `<div>
+                     INST EDUC TULIO OSPINA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_16c926f6517b372363187debf49efc4d = L.marker(
+                [6.254307, -75.5773327],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_ab4f2369845f400d8ddb5725ab1b30a4 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_663d054b34c1b5b69f9a38bae80dd6d9 = $(`<div id="html_663d054b34c1b5b69f9a38bae80dd6d9" style="width: 100.0%; height: 100.0%;">     <b>INST EDUC CEFA</b><br>     Comuna: 10 - LA CANDELARIA<br>     Tipo: IE<br>     Dirección: CL 50 41 55<br>     Latitud: 6.254307<br>     Longitud: -75.5773327     </div>`)[0];
+                popup_ab4f2369845f400d8ddb5725ab1b30a4.setContent(html_663d054b34c1b5b69f9a38bae80dd6d9);
+            
+        
+
+        marker_16c926f6517b372363187debf49efc4d.bindPopup(popup_ab4f2369845f400d8ddb5725ab1b30a4)
+        ;
+
+        
+    
+    
+            marker_16c926f6517b372363187debf49efc4d.bindTooltip(
+                `<div>
+                     INST EDUC CEFA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_724f74744ed4b16b987ff8b373a1c82b = L.marker(
+                [6.2353845, -75.5422922],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_e284ecb7263c78d57c599454008e6509 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b9d81091654fa31325a7c31a98bcc9b3 = $(`<div id="html_b9d81091654fa31325a7c31a98bcc9b3" style="width: 100.0%; height: 100.0%;">     <b>INST EDUC HECTOR ABAD GOMEZ</b><br>     Comuna: 10 - LA CANDELARIA<br>     Tipo: IE<br>     Dirección: CL 50 39 65<br>     Latitud: 6.2353845<br>     Longitud: -75.5422922     </div>`)[0];
+                popup_e284ecb7263c78d57c599454008e6509.setContent(html_b9d81091654fa31325a7c31a98bcc9b3);
+            
+        
+
+        marker_724f74744ed4b16b987ff8b373a1c82b.bindPopup(popup_e284ecb7263c78d57c599454008e6509)
+        ;
+
+        
+    
+    
+            marker_724f74744ed4b16b987ff8b373a1c82b.bindTooltip(
+                `<div>
+                     INST EDUC HECTOR ABAD GOMEZ
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e0e67c44e585734c629b83da38970c6b = L.marker(
+                [6.252405, -75.6075809],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_7f2cb1e316203d18b2c09320da2ebf09 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_4d21877b1eda95c5f5715d508a3a4c39 = $(`<div id="html_4d21877b1eda95c5f5715d508a3a4c39" style="width: 100.0%; height: 100.0%;">     <b>SEC ESC DARIO LONDOÑO CARDONA</b><br>     Comuna: 10 - LA CANDELARIA<br>     Tipo: IE<br>     Dirección: CL 44 43 96<br>     Latitud: 6.252405<br>     Longitud: -75.6075809     </div>`)[0];
+                popup_7f2cb1e316203d18b2c09320da2ebf09.setContent(html_4d21877b1eda95c5f5715d508a3a4c39);
+            
+        
+
+        marker_e0e67c44e585734c629b83da38970c6b.bindPopup(popup_7f2cb1e316203d18b2c09320da2ebf09)
+        ;
+
+        
+    
+    
+            marker_e0e67c44e585734c629b83da38970c6b.bindTooltip(
+                `<div>
+                     SEC ESC DARIO LONDOÑO CARDONA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7afbc19c7c30add38c64f56275e6afb0 = L.marker(
+                [6.2483727, -75.5600174],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_159b8a50124bceb8a07b7ad0e807f74d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_fb9f949c0d6dd4b6c8c037af3755d47b = $(`<div id="html_fb9f949c0d6dd4b6c8c037af3755d47b" style="width: 100.0%; height: 100.0%;">     <b>INST EDUC JAVIERA LONDOÑO</b><br>     Comuna: 10 - LA CANDELARIA<br>     Tipo: IE<br>     Dirección: CL 53 40 65<br>     Latitud: 6.2483727<br>     Longitud: -75.5600174     </div>`)[0];
+                popup_159b8a50124bceb8a07b7ad0e807f74d.setContent(html_fb9f949c0d6dd4b6c8c037af3755d47b);
+            
+        
+
+        marker_7afbc19c7c30add38c64f56275e6afb0.bindPopup(popup_159b8a50124bceb8a07b7ad0e807f74d)
+        ;
+
+        
+    
+    
+            marker_7afbc19c7c30add38c64f56275e6afb0.bindTooltip(
+                `<div>
+                     INST EDUC JAVIERA LONDOÑO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ea61eba2fac8e9fd0732ce885be51c63 = L.marker(
+                [6.2423657, -75.5446831],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_5ed219fe1c4a8962d13a8c760d97fa1c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_020e25233975f392a2c0c31667550d68 = $(`<div id="html_020e25233975f392a2c0c31667550d68" style="width: 100.0%; height: 100.0%;">     <b>INST DE CIENCIAS APLICADAS - INDECAP</b><br>     Comuna: 10 - LA CANDELARIA<br>     Tipo: IE<br>     Dirección: CL 56 45 26<br>     Latitud: 6.2423657<br>     Longitud: -75.5446831     </div>`)[0];
+                popup_5ed219fe1c4a8962d13a8c760d97fa1c.setContent(html_020e25233975f392a2c0c31667550d68);
+            
+        
+
+        marker_ea61eba2fac8e9fd0732ce885be51c63.bindPopup(popup_5ed219fe1c4a8962d13a8c760d97fa1c)
+        ;
+
+        
+    
+    
+            marker_ea61eba2fac8e9fd0732ce885be51c63.bindTooltip(
+                `<div>
+                     INST DE CIENCIAS APLICADAS - INDECAP
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f2167b135481b4241f45ef6d802bbfaf = L.marker(
+                [6.2181987, -75.5650652],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_16d360655fea200118d323f205ada47c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_bd53598eb3f43c6a22745629dca1e175 = $(`<div id="html_bd53598eb3f43c6a22745629dca1e175" style="width: 100.0%; height: 100.0%;">     <b>COL EMPRESARIAL EDUCATIVO - CEMPED</b><br>     Comuna: 10 - LA CANDELARIA<br>     Tipo: IE<br>     Dirección: CL 56 N° 41 87<br>     Latitud: 6.2181987<br>     Longitud: -75.5650652     </div>`)[0];
+                popup_16d360655fea200118d323f205ada47c.setContent(html_bd53598eb3f43c6a22745629dca1e175);
+            
+        
+
+        marker_f2167b135481b4241f45ef6d802bbfaf.bindPopup(popup_16d360655fea200118d323f205ada47c)
+        ;
+
+        
+    
+    
+            marker_f2167b135481b4241f45ef6d802bbfaf.bindTooltip(
+                `<div>
+                     COL EMPRESARIAL EDUCATIVO - CEMPED
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c8e54c4269890eda0474b85ab0ad06a4 = L.marker(
+                [6.2687459, -75.5930081],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_f52937821141f2f170b9654550fad68b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ba611c9f763b66a216b2c9c0e09abad8 = $(`<div id="html_ba611c9f763b66a216b2c9c0e09abad8" style="width: 100.0%; height: 100.0%;">     <b>C.E. DE CÓMPUTO EMPRESARIAL PARA EL TRABAJO - CINDECÓPUTO</b><br>     Comuna: 10 - LA CANDELARIA<br>     Tipo: IE<br>     Dirección: CL 55 43 74<br>     Latitud: 6.2687459<br>     Longitud: -75.5930081     </div>`)[0];
+                popup_f52937821141f2f170b9654550fad68b.setContent(html_ba611c9f763b66a216b2c9c0e09abad8);
+            
+        
+
+        marker_c8e54c4269890eda0474b85ab0ad06a4.bindPopup(popup_f52937821141f2f170b9654550fad68b)
+        ;
+
+        
+    
+    
+            marker_c8e54c4269890eda0474b85ab0ad06a4.bindTooltip(
+                `<div>
+                     C.E. DE CÓMPUTO EMPRESARIAL PARA EL TRABAJO - CINDECÓPUTO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bb7afc75158b1b5ae5429a9edf212152 = L.marker(
+                [6.2395317, -75.5522315],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_0909e3e502361963b636d196bcffd8ad = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d32e954d588f1122957e90deec6248de = $(`<div id="html_d32e954d588f1122957e90deec6248de" style="width: 100.0%; height: 100.0%;">     <b>CENT EDUC CASA MAMA MARGARITA</b><br>     Comuna: 10 - LA CANDELARIA<br>     Tipo: IE<br>     Dirección: CL 48 39 58<br>     Latitud: 6.2395317<br>     Longitud: -75.5522315     </div>`)[0];
+                popup_0909e3e502361963b636d196bcffd8ad.setContent(html_d32e954d588f1122957e90deec6248de);
+            
+        
+
+        marker_bb7afc75158b1b5ae5429a9edf212152.bindPopup(popup_0909e3e502361963b636d196bcffd8ad)
+        ;
+
+        
+    
+    
+            marker_bb7afc75158b1b5ae5429a9edf212152.bindTooltip(
+                `<div>
+                     CENT EDUC CASA MAMA MARGARITA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_744316ff3bc520fbc77b497f9c5894c8 = L.marker(
+                [6.2312475, -75.5147447],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_0e2fd39b8065a1a6d98ca99ec1b1fa69 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_9d944c1f2904192e202af7182cc758d5 = $(`<div id="html_9d944c1f2904192e202af7182cc758d5" style="width: 100.0%; height: 100.0%;">     <b>CORP ESC EMPRESARIAL DE EDUCACION</b><br>     Comuna: 10 - LA CANDELARIA<br>     Tipo: IE<br>     Dirección: CL 52 39 50<br>     Latitud: 6.2312475<br>     Longitud: -75.5147447     </div>`)[0];
+                popup_0e2fd39b8065a1a6d98ca99ec1b1fa69.setContent(html_9d944c1f2904192e202af7182cc758d5);
+            
+        
+
+        marker_744316ff3bc520fbc77b497f9c5894c8.bindPopup(popup_0e2fd39b8065a1a6d98ca99ec1b1fa69)
+        ;
+
+        
+    
+    
+            marker_744316ff3bc520fbc77b497f9c5894c8.bindTooltip(
+                `<div>
+                     CORP ESC EMPRESARIAL DE EDUCACION
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e5adbce61e988b923e941170f0549e60 = L.marker(
+                [6.259135, -75.5918051],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_e77f65b0c7c3b4e7ed6e9dc0949c0af8 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_fa468220fa4a2c8d92ae0a964703bd7a = $(`<div id="html_fa468220fa4a2c8d92ae0a964703bd7a" style="width: 100.0%; height: 100.0%;">     <b>COL NUEVO CERVANTES CONOCER</b><br>     Comuna: 10 - LA CANDELARIA<br>     Tipo: IE<br>     Dirección: CL 49 43 30<br>     Latitud: 6.259135<br>     Longitud: -75.5918051     </div>`)[0];
+                popup_e77f65b0c7c3b4e7ed6e9dc0949c0af8.setContent(html_fa468220fa4a2c8d92ae0a964703bd7a);
+            
+        
+
+        marker_e5adbce61e988b923e941170f0549e60.bindPopup(popup_e77f65b0c7c3b4e7ed6e9dc0949c0af8)
+        ;
+
+        
+    
+    
+            marker_e5adbce61e988b923e941170f0549e60.bindTooltip(
+                `<div>
+                     COL NUEVO CERVANTES CONOCER
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b040f7c862c5422771b6284c26b06032 = L.marker(
+                [6.2586159, -75.5864353],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_8efc6e27584596fd821ce5ecae009a75 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d8aa25fa7983bbe0f13d52e5e9c02405 = $(`<div id="html_d8aa25fa7983bbe0f13d52e5e9c02405" style="width: 100.0%; height: 100.0%;">     <b>COL NUEVO CERVANTES CONOCER</b><br>     Comuna: 10 - LA CANDELARIA<br>     Tipo: IE<br>     Dirección: CL 50 56 11<br>     Latitud: 6.2586159<br>     Longitud: -75.5864353     </div>`)[0];
+                popup_8efc6e27584596fd821ce5ecae009a75.setContent(html_d8aa25fa7983bbe0f13d52e5e9c02405);
+            
+        
+
+        marker_b040f7c862c5422771b6284c26b06032.bindPopup(popup_8efc6e27584596fd821ce5ecae009a75)
+        ;
+
+        
+    
+    
+            marker_b040f7c862c5422771b6284c26b06032.bindTooltip(
+                `<div>
+                     COL NUEVO CERVANTES CONOCER
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_439c77a367e6f2a5a49d4f8bb0c57d44 = L.marker(
+                [6.2491066, -75.556998],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_85a5b625768239463ae10dedebb71012 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_46f1421232b8b6ee5b7c24fb3a6e8d1f = $(`<div id="html_46f1421232b8b6ee5b7c24fb3a6e8d1f" style="width: 100.0%; height: 100.0%;">     <b>COL NAL DE CAPACITACIÓN ACADEMICA Y CULTURAL CENCAL</b><br>     Comuna: 10 - LA CANDELARIA<br>     Tipo: IE<br>     Dirección: CL 56 41 155<br>     Latitud: 6.2491066<br>     Longitud: -75.556998     </div>`)[0];
+                popup_85a5b625768239463ae10dedebb71012.setContent(html_46f1421232b8b6ee5b7c24fb3a6e8d1f);
+            
+        
+
+        marker_439c77a367e6f2a5a49d4f8bb0c57d44.bindPopup(popup_85a5b625768239463ae10dedebb71012)
+        ;
+
+        
+    
+    
+            marker_439c77a367e6f2a5a49d4f8bb0c57d44.bindTooltip(
+                `<div>
+                     COL NAL DE CAPACITACIÓN ACADEMICA Y CULTURAL CENCAL
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_570eb37882bdf95637239aec8936b44e = L.marker(
+                [6.2317833, -75.4979025],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_7bc1e1bca79ac13f11b359a0b16fdd1e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_5ba0975897977e3c76a6bcae9b7c7113 = $(`<div id="html_5ba0975897977e3c76a6bcae9b7c7113" style="width: 100.0%; height: 100.0%;">     <b>SEC ESC CUARTA BRIGADA</b><br>     Comuna: 11 - LAURELES - ESTADIO<br>     Tipo: IE<br>     Dirección: CL 53    76-267<br>     Latitud: 6.2317833<br>     Longitud: -75.4979025     </div>`)[0];
+                popup_7bc1e1bca79ac13f11b359a0b16fdd1e.setContent(html_5ba0975897977e3c76a6bcae9b7c7113);
+            
+        
+
+        marker_570eb37882bdf95637239aec8936b44e.bindPopup(popup_7bc1e1bca79ac13f11b359a0b16fdd1e)
+        ;
+
+        
+    
+    
+            marker_570eb37882bdf95637239aec8936b44e.bindTooltip(
+                `<div>
+                     SEC ESC CUARTA BRIGADA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5ac5fb33cc073c3c80c29cbdd8b24a28 = L.marker(
+                [6.2517931, -75.5409841],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_953b5101a7760ba9dde9586c9937ec28 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f2847d96052e465755347b711a3c3da1 = $(`<div id="html_f2847d96052e465755347b711a3c3da1" style="width: 100.0%; height: 100.0%;">     <b>SEC ESC LA IGUANA</b><br>     Comuna: 7 - ROBLEDO<br>     Tipo: IE<br>     Dirección: CL 59 65 75<br>     Latitud: 6.2517931<br>     Longitud: -75.5409841     </div>`)[0];
+                popup_953b5101a7760ba9dde9586c9937ec28.setContent(html_f2847d96052e465755347b711a3c3da1);
+            
+        
+
+        marker_5ac5fb33cc073c3c80c29cbdd8b24a28.bindPopup(popup_953b5101a7760ba9dde9586c9937ec28)
+        ;
+
+        
+    
+    
+            marker_5ac5fb33cc073c3c80c29cbdd8b24a28.bindTooltip(
+                `<div>
+                     SEC ESC LA IGUANA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_aa9ad23acc64cb4db49d98acc583f95f = L.marker(
+                [6.2522195, -75.6057666],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_ba1eab3223e659faa8ce06ccc2407043 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_177da25c45bcb4887c378bd8184dafc0 = $(`<div id="html_177da25c45bcb4887c378bd8184dafc0" style="width: 100.0%; height: 100.0%;">     <b>SEC ESC AGRUPACION COLOMBIA</b><br>     Comuna: 11 - LAURELES - ESTADIO<br>     Tipo: IE<br>     Dirección: CL 44A    75-68<br>     Latitud: 6.2522195<br>     Longitud: -75.6057666     </div>`)[0];
+                popup_ba1eab3223e659faa8ce06ccc2407043.setContent(html_177da25c45bcb4887c378bd8184dafc0);
+            
+        
+
+        marker_aa9ad23acc64cb4db49d98acc583f95f.bindPopup(popup_ba1eab3223e659faa8ce06ccc2407043)
+        ;
+
+        
+    
+    
+            marker_aa9ad23acc64cb4db49d98acc583f95f.bindTooltip(
+                `<div>
+                     SEC ESC AGRUPACION COLOMBIA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ddce39f39e8f24b9192013ed3c4b2891 = L.marker(
+                [6.2452851, -75.5986674],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_91896aa1943c9e7a01889497dce024ba = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c516fb07920becce05b787b623ca114f = $(`<div id="html_c516fb07920becce05b787b623ca114f" style="width: 100.0%; height: 100.0%;">     <b>INST EDUC CRISTOBAL COLON</b><br>     Comuna: 12 - LA AMERICA<br>     Tipo: IE<br>     Dirección: CL 38 92 93<br>     Latitud: 6.2452851<br>     Longitud: -75.5986674     </div>`)[0];
+                popup_91896aa1943c9e7a01889497dce024ba.setContent(html_c516fb07920becce05b787b623ca114f);
+            
+        
+
+        marker_ddce39f39e8f24b9192013ed3c4b2891.bindPopup(popup_91896aa1943c9e7a01889497dce024ba)
+        ;
+
+        
+    
+    
+            marker_ddce39f39e8f24b9192013ed3c4b2891.bindTooltip(
+                `<div>
+                     INST EDUC CRISTOBAL COLON
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2be6d3694c6a2fcd5710a7c8ec61c3ad = L.marker(
+                [6.2455232, -75.6085349],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_619e575bb98e2b60803ea04679e34f8c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_3016421f2ea30ecbdc4719764027a127 = $(`<div id="html_3016421f2ea30ecbdc4719764027a127" style="width: 100.0%; height: 100.0%;">     <b>SEC ESC JARDIN INFANTIL # 2</b><br>     Comuna: 12 - LA AMERICA<br>     Tipo: IE<br>     Dirección: CL 37 92 24<br>     Latitud: 6.2455232<br>     Longitud: -75.6085349     </div>`)[0];
+                popup_619e575bb98e2b60803ea04679e34f8c.setContent(html_3016421f2ea30ecbdc4719764027a127);
+            
+        
+
+        marker_2be6d3694c6a2fcd5710a7c8ec61c3ad.bindPopup(popup_619e575bb98e2b60803ea04679e34f8c)
+        ;
+
+        
+    
+    
+            marker_2be6d3694c6a2fcd5710a7c8ec61c3ad.bindTooltip(
+                `<div>
+                     SEC ESC JARDIN INFANTIL # 2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_25db01bd3182e026ce9a3cfe03341ee6 = L.marker(
+                [6.2480718, -75.5803429],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_bf0e394cb97e0821a49260c7e81b36ec = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_2be3bc9fd4d9a1133d2732be1dc7a41b = $(`<div id="html_2be3bc9fd4d9a1133d2732be1dc7a41b" style="width: 100.0%; height: 100.0%;">     <b>INST EDUC SAMUEL BARRIENTOS RESTREPO</b><br>     Comuna: 12 - LA AMERICA<br>     Tipo: IE<br>     Dirección: CL 44 94 119<br>     Latitud: 6.2480718<br>     Longitud: -75.5803429     </div>`)[0];
+                popup_bf0e394cb97e0821a49260c7e81b36ec.setContent(html_2be3bc9fd4d9a1133d2732be1dc7a41b);
+            
+        
+
+        marker_25db01bd3182e026ce9a3cfe03341ee6.bindPopup(popup_bf0e394cb97e0821a49260c7e81b36ec)
+        ;
+
+        
+    
+    
+            marker_25db01bd3182e026ce9a3cfe03341ee6.bindTooltip(
+                `<div>
+                     INST EDUC SAMUEL BARRIENTOS RESTREPO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e70fb9ecd99058c5cd0e4e79c8153ed4 = L.marker(
+                [6.2480718, -75.5803429],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_f2bdf6ddcbdfb6b17406bfcdea3b404a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b53687644c4ff34bd86ca76e0ecb244e = $(`<div id="html_b53687644c4ff34bd86ca76e0ecb244e" style="width: 100.0%; height: 100.0%;">     <b>SEC ESC MONSEÑOR PERDOMO</b><br>     Comuna: 12 - LA AMERICA<br>     Tipo: IE<br>     Dirección: CLL 44 NO 97-14<br>     Latitud: 6.2480718<br>     Longitud: -75.5803429     </div>`)[0];
+                popup_f2bdf6ddcbdfb6b17406bfcdea3b404a.setContent(html_b53687644c4ff34bd86ca76e0ecb244e);
+            
+        
+
+        marker_e70fb9ecd99058c5cd0e4e79c8153ed4.bindPopup(popup_f2bdf6ddcbdfb6b17406bfcdea3b404a)
+        ;
+
+        
+    
+    
+            marker_e70fb9ecd99058c5cd0e4e79c8153ed4.bindTooltip(
+                `<div>
+                     SEC ESC MONSEÑOR PERDOMO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8e5c0a94888992b8e45bd1d01995df97 = L.marker(
+                [6.2480718, -75.5803429],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_19130ac63910c4f1de5abd8f61bcd7be = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_79708b593199f3aaf893120e4706cefd = $(`<div id="html_79708b593199f3aaf893120e4706cefd" style="width: 100.0%; height: 100.0%;">     <b>SEC ESC MONSEÑOR PERDOMO</b><br>     Comuna: Sin registro - Sin registro<br>     Tipo: IE<br>     Dirección: CL 44    97-14<br>     Latitud: 6.2480718<br>     Longitud: -75.5803429     </div>`)[0];
+                popup_19130ac63910c4f1de5abd8f61bcd7be.setContent(html_79708b593199f3aaf893120e4706cefd);
+            
+        
+
+        marker_8e5c0a94888992b8e45bd1d01995df97.bindPopup(popup_19130ac63910c4f1de5abd8f61bcd7be)
+        ;
+
+        
+    
+    
+            marker_8e5c0a94888992b8e45bd1d01995df97.bindTooltip(
+                `<div>
+                     SEC ESC MONSEÑOR PERDOMO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_279aaefd0833cb814a3b6b41f06c8056 = L.marker(
+                [6.2476687, -75.5661958],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_9966214c5eb94c1837cca5d534a10f6d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c06cce3d3081671e2b0683f8c8ea0e3e = $(`<div id="html_c06cce3d3081671e2b0683f8c8ea0e3e" style="width: 100.0%; height: 100.0%;">     <b>INST EDUC JUAN XXIII</b><br>     Comuna: 13 - SAN JAVIER<br>     Tipo: IE<br>     Dirección: CL 49 96 A 11<br>     Latitud: 6.2476687<br>     Longitud: -75.5661958     </div>`)[0];
+                popup_9966214c5eb94c1837cca5d534a10f6d.setContent(html_c06cce3d3081671e2b0683f8c8ea0e3e);
+            
+        
+
+        marker_279aaefd0833cb814a3b6b41f06c8056.bindPopup(popup_9966214c5eb94c1837cca5d534a10f6d)
+        ;
+
+        
+    
+    
+            marker_279aaefd0833cb814a3b6b41f06c8056.bindTooltip(
+                `<div>
+                     INST EDUC JUAN XXIII
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2de0f8e400f660aff020cb73d5b2ecd6 = L.marker(
+                [6.2565319, -75.6265211],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_e1dafea23e696547d86dcc7b70397797 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_38d6002b6f78f19569413a3b7a544785 = $(`<div id="html_38d6002b6f78f19569413a3b7a544785" style="width: 100.0%; height: 100.0%;">     <b>INST EDUC CARLOS VIECO ORTIZ</b><br>     Comuna: 13 - SAN JAVIER<br>     Tipo: IE<br>     Dirección: CL 40 105 36<br>     Latitud: 6.2565319<br>     Longitud: -75.6265211     </div>`)[0];
+                popup_e1dafea23e696547d86dcc7b70397797.setContent(html_38d6002b6f78f19569413a3b7a544785);
+            
+        
+
+        marker_2de0f8e400f660aff020cb73d5b2ecd6.bindPopup(popup_e1dafea23e696547d86dcc7b70397797)
+        ;
+
+        
+    
+    
+            marker_2de0f8e400f660aff020cb73d5b2ecd6.bindTooltip(
+                `<div>
+                     INST EDUC CARLOS VIECO ORTIZ
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_953d658e9b999c053786ff9b21838648 = L.marker(
+                [6.2414992, -75.5679149],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_7203bf490b36dd6cc8870131bc3e6974 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_4952b830629284c3be1c4fd4959fb418 = $(`<div id="html_4952b830629284c3be1c4fd4959fb418" style="width: 100.0%; height: 100.0%;">     <b>SEC ESC JUAN DE DIOS ARANZAZU</b><br>     Comuna: 13 - SAN JAVIER<br>     Tipo: IE<br>     Dirección: CL 42    105-42<br>     Latitud: 6.2414992<br>     Longitud: -75.5679149     </div>`)[0];
+                popup_7203bf490b36dd6cc8870131bc3e6974.setContent(html_4952b830629284c3be1c4fd4959fb418);
+            
+        
+
+        marker_953d658e9b999c053786ff9b21838648.bindPopup(popup_7203bf490b36dd6cc8870131bc3e6974)
+        ;
+
+        
+    
+    
+            marker_953d658e9b999c053786ff9b21838648.bindTooltip(
+                `<div>
+                     SEC ESC JUAN DE DIOS ARANZAZU
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_396720e855f389dc5fe4e8ba880c4f47 = L.marker(
+                [6.270017, -75.5551565],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_213a544aeb52972ffe06c2a4e5b15d1f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_5ba81b2c11b8bbbefcc141d0de521633 = $(`<div id="html_5ba81b2c11b8bbbefcc141d0de521633" style="width: 100.0%; height: 100.0%;">     <b>INST EDUC EDUARDO SANTOS</b><br>     Comuna: 13 - SAN JAVIER<br>     Tipo: IE<br>     Dirección: CL 43 120 C 77<br>     Latitud: 6.270017<br>     Longitud: -75.5551565     </div>`)[0];
+                popup_213a544aeb52972ffe06c2a4e5b15d1f.setContent(html_5ba81b2c11b8bbbefcc141d0de521633);
+            
+        
+
+        marker_396720e855f389dc5fe4e8ba880c4f47.bindPopup(popup_213a544aeb52972ffe06c2a4e5b15d1f)
+        ;
+
+        
+    
+    
+            marker_396720e855f389dc5fe4e8ba880c4f47.bindTooltip(
+                `<div>
+                     INST EDUC EDUARDO SANTOS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1db70f127a40c31cca7e759bc03e72e2 = L.marker(
+                [6.2514005, -75.5969667],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_e363d2a8e473e6289e900aa4b86ec6ff = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_5d4fc451683b064edd72f7f2b6e8b274 = $(`<div id="html_5d4fc451683b064edd72f7f2b6e8b274" style="width: 100.0%; height: 100.0%;">     <b>COL EL HOGAR DE SU NIÑO</b><br>     Comuna: 13 - SAN JAVIER<br>     Tipo: IE<br>     Dirección: CL 45 99 25<br>     Latitud: 6.2514005<br>     Longitud: -75.5969667     </div>`)[0];
+                popup_e363d2a8e473e6289e900aa4b86ec6ff.setContent(html_5d4fc451683b064edd72f7f2b6e8b274);
+            
+        
+
+        marker_1db70f127a40c31cca7e759bc03e72e2.bindPopup(popup_e363d2a8e473e6289e900aa4b86ec6ff)
+        ;
+
+        
+    
+    
+            marker_1db70f127a40c31cca7e759bc03e72e2.bindTooltip(
+                `<div>
+                     COL EL HOGAR DE SU NIÑO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6c72d01bfe602ff5c848829375c0154a = L.marker(
+                [6.2751492, -75.6042978],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_29205d5ee360c21545752f7b5984109b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b398e44f3ad64d4108b127ed2ef88bcc = $(`<div id="html_b398e44f3ad64d4108b127ed2ef88bcc" style="width: 100.0%; height: 100.0%;">     <b>COL ARENYS DEL MAR</b><br>     Comuna: 13 - SAN JAVIER<br>     Tipo: IE<br>     Dirección: CL 58D    93A 87<br>     Latitud: 6.2751492<br>     Longitud: -75.6042978     </div>`)[0];
+                popup_29205d5ee360c21545752f7b5984109b.setContent(html_b398e44f3ad64d4108b127ed2ef88bcc);
+            
+        
+
+        marker_6c72d01bfe602ff5c848829375c0154a.bindPopup(popup_29205d5ee360c21545752f7b5984109b)
+        ;
+
+        
+    
+    
+            marker_6c72d01bfe602ff5c848829375c0154a.bindTooltip(
+                `<div>
+                     COL ARENYS DEL MAR
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c913cb17fd19b784a44cc08660b06edd = L.marker(
+                [6.2097311, -75.6055233],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_1299bebb105738f94ca3764c8db9a7ee = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_87ee72f5ee383518b31fbf1c7093e541 = $(`<div id="html_87ee72f5ee383518b31fbf1c7093e541" style="width: 100.0%; height: 100.0%;">     <b>INST EDUC SANTA CATALINA DE SIENA</b><br>     Comuna: 15 - GUAYABAL<br>     Tipo: IE<br>     Dirección: CL 1 # 29 - 300<br>     Latitud: 6.2097311<br>     Longitud: -75.6055233     </div>`)[0];
+                popup_1299bebb105738f94ca3764c8db9a7ee.setContent(html_87ee72f5ee383518b31fbf1c7093e541);
+            
+        
+
+        marker_c913cb17fd19b784a44cc08660b06edd.bindPopup(popup_1299bebb105738f94ca3764c8db9a7ee)
+        ;
+
+        
+    
+    
+            marker_c913cb17fd19b784a44cc08660b06edd.bindTooltip(
+                `<div>
+                     INST EDUC SANTA CATALINA DE SIENA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d557a73041d8046e3304155f799bb62e = L.marker(
+                [6.2264303, -75.5732405],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_2264ba0b323fbbcc64223a2e6d6f6afa = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d6050e74ee383ee996a6409aea851d5a = $(`<div id="html_d6050e74ee383ee996a6409aea851d5a" style="width: 100.0%; height: 100.0%;">     <b>INST EDUC BENJAMIN HERRERA</b><br>     Comuna: 15 - GUAYABAL<br>     Tipo: IE<br>     Dirección: CL 25 52 140<br>     Latitud: 6.2264303<br>     Longitud: -75.5732405     </div>`)[0];
+                popup_2264ba0b323fbbcc64223a2e6d6f6afa.setContent(html_d6050e74ee383ee996a6409aea851d5a);
+            
+        
+
+        marker_d557a73041d8046e3304155f799bb62e.bindPopup(popup_2264ba0b323fbbcc64223a2e6d6f6afa)
+        ;
+
+        
+    
+    
+            marker_d557a73041d8046e3304155f799bb62e.bindTooltip(
+                `<div>
+                     INST EDUC BENJAMIN HERRERA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2ba5e18bf21248c3d7e1c5ce89b757af = L.marker(
+                [6.204752, -75.5811657],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_b1f075bfc582794e16fb104c046bc6cb = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c48bafad709f540b277b3660c016b653 = $(`<div id="html_c48bafad709f540b277b3660c016b653" style="width: 100.0%; height: 100.0%;">     <b>INST EDUC CRISTO REY</b><br>     Comuna: 15 - GUAYABAL<br>     Tipo: IE<br>     Dirección: CL 2 SUR 50 D 30<br>     Latitud: 6.204752<br>     Longitud: -75.5811657     </div>`)[0];
+                popup_b1f075bfc582794e16fb104c046bc6cb.setContent(html_c48bafad709f540b277b3660c016b653);
+            
+        
+
+        marker_2ba5e18bf21248c3d7e1c5ce89b757af.bindPopup(popup_b1f075bfc582794e16fb104c046bc6cb)
+        ;
+
+        
+    
+    
+            marker_2ba5e18bf21248c3d7e1c5ce89b757af.bindTooltip(
+                `<div>
+                     INST EDUC CRISTO REY
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a0b587c9049adbbebae454c46b4ad8b9 = L.marker(
+                [6.2040454, -75.5553574],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_8a064efea806ba57f6990eee30e2dfd1 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d46338af5ae37af7732e956a3a925b58 = $(`<div id="html_d46338af5ae37af7732e956a3a925b58" style="width: 100.0%; height: 100.0%;">     <b>INST EDUC LA PRESENTACION</b><br>     Comuna: 15 - GUAYABAL<br>     Tipo: IE<br>     Dirección: CL 7 56 8<br>     Latitud: 6.2040454<br>     Longitud: -75.5553574     </div>`)[0];
+                popup_8a064efea806ba57f6990eee30e2dfd1.setContent(html_d46338af5ae37af7732e956a3a925b58);
+            
+        
+
+        marker_a0b587c9049adbbebae454c46b4ad8b9.bindPopup(popup_8a064efea806ba57f6990eee30e2dfd1)
+        ;
+
+        
+    
+    
+            marker_a0b587c9049adbbebae454c46b4ad8b9.bindTooltip(
+                `<div>
+                     INST EDUC LA PRESENTACION
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_886fcb89ed082a0fbb008b862c6de685 = L.marker(
+                [6.2078605, -75.5877583],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_ac3bcd2f2461f46ee9002a44496105e8 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_2fbc3a123d7d309f4de097864848a96e = $(`<div id="html_2fbc3a123d7d309f4de097864848a96e" style="width: 100.0%; height: 100.0%;">     <b>INST EDUC SANTO ANGEL</b><br>     Comuna: 15 - GUAYABAL<br>     Tipo: IE<br>     Dirección: CL 2 SUR 53 140<br>     Latitud: 6.2078605<br>     Longitud: -75.5877583     </div>`)[0];
+                popup_ac3bcd2f2461f46ee9002a44496105e8.setContent(html_2fbc3a123d7d309f4de097864848a96e);
+            
+        
+
+        marker_886fcb89ed082a0fbb008b862c6de685.bindPopup(popup_ac3bcd2f2461f46ee9002a44496105e8)
+        ;
+
+        
+    
+    
+            marker_886fcb89ed082a0fbb008b862c6de685.bindTooltip(
+                `<div>
+                     INST EDUC SANTO ANGEL
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_11901961c30f6c9ec5a26a244e563cf0 = L.marker(
+                [6.2208437, -75.5857164],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_5c8d8445ed4ec8add3786b238cf44bf7 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_da9fbb51581130facef645c7413ed6a0 = $(`<div id="html_da9fbb51581130facef645c7413ed6a0" style="width: 100.0%; height: 100.0%;">     <b>INST EDUC SANTOS ANGELES CUSTODIOS</b><br>     Comuna: 15 - GUAYABAL<br>     Tipo: IE<br>     Dirección: CL 16 A 65 G 4<br>     Latitud: 6.2208437<br>     Longitud: -75.5857164     </div>`)[0];
+                popup_5c8d8445ed4ec8add3786b238cf44bf7.setContent(html_da9fbb51581130facef645c7413ed6a0);
+            
+        
+
+        marker_11901961c30f6c9ec5a26a244e563cf0.bindPopup(popup_5c8d8445ed4ec8add3786b238cf44bf7)
+        ;
+
+        
+    
+    
+            marker_11901961c30f6c9ec5a26a244e563cf0.bindTooltip(
+                `<div>
+                     INST EDUC SANTOS ANGELES CUSTODIOS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1365e30a96a7fe068e89afa9e8bedf72 = L.marker(
+                [6.2337226, -75.6063363],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_df52efa200c0519304cd9948b7dd3d24 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_cd026ea7784b09ef092065f3ce78339a = $(`<div id="html_cd026ea7784b09ef092065f3ce78339a" style="width: 100.0%; height: 100.0%;">     <b>SEC SOFIA OSPINA DE NAVARRO</b><br>     Comuna: 16 - BELEN<br>     Tipo: IE<br>     Dirección: CL 32    65-20<br>     Latitud: 6.2337226<br>     Longitud: -75.6063363     </div>`)[0];
+                popup_df52efa200c0519304cd9948b7dd3d24.setContent(html_cd026ea7784b09ef092065f3ce78339a);
+            
+        
+
+        marker_1365e30a96a7fe068e89afa9e8bedf72.bindPopup(popup_df52efa200c0519304cd9948b7dd3d24)
+        ;
+
+        
+    
+    
+            marker_1365e30a96a7fe068e89afa9e8bedf72.bindTooltip(
+                `<div>
+                     SEC SOFIA OSPINA DE NAVARRO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_34c4b68e22cab566d01871266c8c45d1 = L.marker(
+                [6.2348543, -75.5835931],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_d16a4a30793b2b3e595848067bedd5c7 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_6926bc07457d83538c3cc6d184cd28a4 = $(`<div id="html_6926bc07457d83538c3cc6d184cd28a4" style="width: 100.0%; height: 100.0%;">     <b>INST EDUC HORACIO MUÑOZ SUESCUN</b><br>     Comuna: 16 - BELEN<br>     Tipo: IE<br>     Dirección: CL 32 86 35<br>     Latitud: 6.2348543<br>     Longitud: -75.5835931     </div>`)[0];
+                popup_d16a4a30793b2b3e595848067bedd5c7.setContent(html_6926bc07457d83538c3cc6d184cd28a4);
+            
+        
+
+        marker_34c4b68e22cab566d01871266c8c45d1.bindPopup(popup_d16a4a30793b2b3e595848067bedd5c7)
+        ;
+
+        
+    
+    
+            marker_34c4b68e22cab566d01871266c8c45d1.bindTooltip(
+                `<div>
+                     INST EDUC HORACIO MUÑOZ SUESCUN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_75bfef3e8726d3a345202b41ce3f0a8a = L.marker(
+                [6.2159853, -75.5837152],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_13e12ea23f3ad47405fbbf0f891f089a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_caef8179e5fd04ba7dea72a41dd33928 = $(`<div id="html_caef8179e5fd04ba7dea72a41dd33928" style="width: 100.0%; height: 100.0%;">     <b>SEC ESC LAS PLAYAS</b><br>     Comuna: 16 - BELEN<br>     Tipo: IE<br>     Dirección: CL 10 76 20<br>     Latitud: 6.2159853<br>     Longitud: -75.5837152     </div>`)[0];
+                popup_13e12ea23f3ad47405fbbf0f891f089a.setContent(html_caef8179e5fd04ba7dea72a41dd33928);
+            
+        
+
+        marker_75bfef3e8726d3a345202b41ce3f0a8a.bindPopup(popup_13e12ea23f3ad47405fbbf0f891f089a)
+        ;
+
+        
+    
+    
+            marker_75bfef3e8726d3a345202b41ce3f0a8a.bindTooltip(
+                `<div>
+                     SEC ESC LAS PLAYAS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3a599c8d1c8af9c86aaec3f8cf21cffb = L.marker(
+                [6.2283864, -75.5718739],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_a418609a61fac4cd83ce2dc3073f292a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_6c1e25a6c8bcaf982717b17bed0b1c74 = $(`<div id="html_6c1e25a6c8bcaf982717b17bed0b1c74" style="width: 100.0%; height: 100.0%;">     <b>INST EDUC YERMO Y PARRES</b><br>     Comuna: 16 - BELEN<br>     Tipo: IE<br>     Dirección: CL 28 77 84<br>     Latitud: 6.2283864<br>     Longitud: -75.5718739     </div>`)[0];
+                popup_a418609a61fac4cd83ce2dc3073f292a.setContent(html_6c1e25a6c8bcaf982717b17bed0b1c74);
+            
+        
+
+        marker_3a599c8d1c8af9c86aaec3f8cf21cffb.bindPopup(popup_a418609a61fac4cd83ce2dc3073f292a)
+        ;
+
+        
+    
+    
+            marker_3a599c8d1c8af9c86aaec3f8cf21cffb.bindTooltip(
+                `<div>
+                     INST EDUC YERMO Y PARRES
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f197e8ecfaf6758b0c16eaa4b29e34fd = L.marker(
+                [6.2232323, -75.5696227],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_f1d44086151b7fddc5590b82f2a083d3 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c08a1f733f7bf4ce48962f7730693dc6 = $(`<div id="html_c08a1f733f7bf4ce48962f7730693dc6" style="width: 100.0%; height: 100.0%;">     <b>SEC ESC CARLOS FRANCO</b><br>     Comuna: 16 - BELEN<br>     Tipo: IE<br>     Dirección: CL 23 78 48<br>     Latitud: 6.2232323<br>     Longitud: -75.5696227     </div>`)[0];
+                popup_f1d44086151b7fddc5590b82f2a083d3.setContent(html_c08a1f733f7bf4ce48962f7730693dc6);
+            
+        
+
+        marker_f197e8ecfaf6758b0c16eaa4b29e34fd.bindPopup(popup_f1d44086151b7fddc5590b82f2a083d3)
+        ;
+
+        
+    
+    
+            marker_f197e8ecfaf6758b0c16eaa4b29e34fd.bindTooltip(
+                `<div>
+                     SEC ESC CARLOS FRANCO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9310752b0159727f7bcb706e60262e90 = L.marker(
+                [6.2697325, -75.6025597],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_42d025c01da63235484e70d5a462b157 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_272929e675549aed412ad0b3caba48fb = $(`<div id="html_272929e675549aed412ad0b3caba48fb" style="width: 100.0%; height: 100.0%;">     <b>INST EDUC OCTAVIO HARRY - JACQUELINE KENNEDY</b><br>     Comuna: 16 - BELEN<br>     Tipo: IE<br>     Dirección: CL 17 73 37<br>     Latitud: 6.2697325<br>     Longitud: -75.6025597     </div>`)[0];
+                popup_42d025c01da63235484e70d5a462b157.setContent(html_272929e675549aed412ad0b3caba48fb);
+            
+        
+
+        marker_9310752b0159727f7bcb706e60262e90.bindPopup(popup_42d025c01da63235484e70d5a462b157)
+        ;
+
+        
+    
+    
+            marker_9310752b0159727f7bcb706e60262e90.bindTooltip(
+                `<div>
+                     INST EDUC OCTAVIO HARRY - JACQUELINE KENNEDY
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_71cbbf1fc448b304818fad00eaf4ae18 = L.marker(
+                [6.1983912, -75.5722155],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_5b1537b87e715c3cab5712c835c0e43e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_75cb971953caa578c69088922f13c192 = $(`<div id="html_75cb971953caa578c69088922f13c192" style="width: 100.0%; height: 100.0%;">     <b>INST EDUC CAPILLA DEL ROSARIO</b><br>     Comuna: 16 - BELEN<br>     Tipo: IE<br>     Dirección: CL 6 SUR 79 195<br>     Latitud: 6.1983912<br>     Longitud: -75.5722155     </div>`)[0];
+                popup_5b1537b87e715c3cab5712c835c0e43e.setContent(html_75cb971953caa578c69088922f13c192);
+            
+        
+
+        marker_71cbbf1fc448b304818fad00eaf4ae18.bindPopup(popup_5b1537b87e715c3cab5712c835c0e43e)
+        ;
+
+        
+    
+    
+            marker_71cbbf1fc448b304818fad00eaf4ae18.bindTooltip(
+                `<div>
+                     INST EDUC CAPILLA DEL ROSARIO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_acafe5bbb56e5174a3a625e4b7d5b6cd = L.marker(
+                [6.1963182, -75.5549335],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_5d474ccbf49b3e55de7ff2509241a6b0 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ddd46cb385db11178b32fa783d641477 = $(`<div id="html_ddd46cb385db11178b32fa783d641477" style="width: 100.0%; height: 100.0%;">     <b>INST EDUC ALCALDIA DE MEDELLIN</b><br>     Comuna: 16 - BELEN<br>     Tipo: IE<br>     Dirección: CL 2 B 79 80<br>     Latitud: 6.1963182<br>     Longitud: -75.5549335     </div>`)[0];
+                popup_5d474ccbf49b3e55de7ff2509241a6b0.setContent(html_ddd46cb385db11178b32fa783d641477);
+            
+        
+
+        marker_acafe5bbb56e5174a3a625e4b7d5b6cd.bindPopup(popup_5d474ccbf49b3e55de7ff2509241a6b0)
+        ;
+
+        
+    
+    
+            marker_acafe5bbb56e5174a3a625e4b7d5b6cd.bindTooltip(
+                `<div>
+                     INST EDUC ALCALDIA DE MEDELLIN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ceee958acb4c87afbf8a802e14126944 = L.marker(
+                [6.2113849, -75.6028648],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_8bf790e0be83b54b2b0e18ffe12130a4 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c60f1157703c2e26dba24d0674e2f91a = $(`<div id="html_c60f1157703c2e26dba24d0674e2f91a" style="width: 100.0%; height: 100.0%;">     <b>SEC ESC ANTONIO JOSE RESTREPO</b><br>     Comuna: 16 - BELEN<br>     Tipo: IE<br>     Dirección: CL 2    79-42<br>     Latitud: 6.2113849<br>     Longitud: -75.6028648     </div>`)[0];
+                popup_8bf790e0be83b54b2b0e18ffe12130a4.setContent(html_c60f1157703c2e26dba24d0674e2f91a);
+            
+        
+
+        marker_ceee958acb4c87afbf8a802e14126944.bindPopup(popup_8bf790e0be83b54b2b0e18ffe12130a4)
+        ;
+
+        
+    
+    
+            marker_ceee958acb4c87afbf8a802e14126944.bindTooltip(
+                `<div>
+                     SEC ESC ANTONIO JOSE RESTREPO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c87a44339ce08b69f65fc7199698a42f = L.marker(
+                [6.2221889, -75.5820999],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_17da634acc0b54c4b101620514dd6bf0 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_625935344b06c26640afa8051952a234 = $(`<div id="html_625935344b06c26640afa8051952a234" style="width: 100.0%; height: 100.0%;">     <b>INST EDUC HECTOR ROGELIO MONTOYA</b><br>     Comuna: 60 - SAN CRISTOBAL<br>     Tipo: IE<br>     Dirección: CL 20    32-60<br>     Latitud: 6.2221889<br>     Longitud: -75.5820999     </div>`)[0];
+                popup_17da634acc0b54c4b101620514dd6bf0.setContent(html_625935344b06c26640afa8051952a234);
+            
+        
+
+        marker_c87a44339ce08b69f65fc7199698a42f.bindPopup(popup_17da634acc0b54c4b101620514dd6bf0)
+        ;
+
+        
+    
+    
+            marker_c87a44339ce08b69f65fc7199698a42f.bindTooltip(
+                `<div>
+                     INST EDUC HECTOR ROGELIO MONTOYA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fbf1743ec5eb3858881482f9d89b7cb0 = L.marker(
+                [6.2239665, -75.5736179],
+                {
+}
+            ).addTo(marker_cluster_49cb47afbc78eb2d3906a1cbfff59017);
+        
+    
+        var popup_6657886209c2af5de9e930656d16659a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_49259bfe2df8fad685d5471f074c65c8 = $(`<div id="html_49259bfe2df8fad685d5471f074c65c8" style="width: 100.0%; height: 100.0%;">     <b>SEC ESC PALMITAS</b><br>     Comuna: 60 - SAN CRISTOBAL<br>     Tipo: IE<br>     Dirección: CL 20    34-105<br>     Latitud: 6.2239665<br>     Longitud: -75.5736179     </div>`)[0];
+                popup_6657886209c2af5de9e930656d16659a.setContent(html_49259bfe2df8fad685d5471f074c65c8);
+            
+        
+
+        marker_fbf1743ec5eb3858881482f9d89b7cb0.bindPopup(popup_6657886209c2af5de9e930656d16659a)
+        ;
+
+        
+    
+    
+            marker_fbf1743ec5eb3858881482f9d89b7cb0.bindTooltip(
+                `<div>
+                     SEC ESC PALMITAS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            marker_cluster_49cb47afbc78eb2d3906a1cbfff59017.addTo(map_45b6862392c09aa6b68658dbea4870d6);
+        
+</script>
+</html>
